@@ -1,0 +1,7381 @@
+[
+  {
+    "name":"AccountLoginResult",
+    "arguments":[
+      "class GmClProto::e_GmClAccountLoginResultCode",
+      "string"
+    ]
+  },
+  {
+    "name":"BattleBoostDiffID",
+    "arguments":[
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"BattleBoostDiffIDList",
+    "arguments":[
+      "List[struct GmClProto::BattleBoostDiffID]"
+    ]
+  },
+  {
+    "name":"BattleBoostDiffName",
+    "arguments":[
+      "struct GmClProto::BattleBoostDiffID",
+      "class GmClProto::BattleBoostEnchantNameList"
+    ]
+  },
+  {
+    "name":"BattleBoostDiffNameList",
+    "arguments":[
+      "List[struct GmClProto::BattleBoostDiffName]"
+    ]
+  },
+  {
+    "name":"BattleBoostEnchantName",
+    "arguments":[
+      "string"
+    ]
+  },
+  {
+    "name":"BattleBoostEnchantNameList",
+    "arguments":[
+      "List[struct GmClProto::BattleBoostEnchantName]"
+    ]
+  },
+  {
+    "name":"BattleBoostIDList",
+    "arguments":[
+      "List[unsigned int]"
+    ]
+  },
+  {
+    "name":"BattleBoostStatusDiff",
+    "arguments":[
+      "unsigned int",
+      "class GmClProto::BattleBoostStatusDiffOneList"
+    ]
+  },
+  {
+    "name":"BattleBoostStatusDiffMap",
+    "arguments":[
+      "List[struct GmClProto::BattleBoostStatusDiff]"
+    ]
+  },
+  {
+    "name":"BattleBoostStatusDiffOne",
+    "arguments":[
+      "class GmClProto::e_BasicStatusKey",
+      "__int64"
+    ]
+  },
+  {
+    "name":"BattleBoostStatusDiffOneList",
+    "arguments":[
+      "List[struct GmClProto::BattleBoostStatusDiffOne]"
+    ]
+  },
+  {
+    "name":"CharacterList",
+    "arguments":[
+      "List[struct GmClProto::CharacterListDataOne]"
+    ]
+  },
+  {
+    "name":"CharacterListDataOne",
+    "arguments":[
+      "int",
+      "struct GmClProto::t_CUID",
+      "int",
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"ClientLoginInfo",
+    "arguments":[
+      "int",
+      "int",
+      "unsigned int",
+      "string",
+      "string",
+      "string",
+      "bool",
+      "string",
+      "bool"
+    ]
+  },
+  {
+    "name":"EventPointLineup",
+    "arguments":[
+      "List[struct GmClProto::s_EventPointInfo]"
+    ]
+  },
+  {
+    "name":"EventPointLineupTabs",
+    "arguments":[
+      "List[class GmClProto::e_EventPointLineupTab]"
+    ]
+  },
+  {
+    "name":"EventPointRewardList",
+    "arguments":[
+      "List[struct GmClProto::s_EventPointReward]"
+    ]
+  },
+  {
+    "name":"MapChannelInfo",
+    "arguments":[
+      "struct GmClProto::t_FieldUID",
+      "string",
+      "int",
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"MapChannelInfoArray",
+    "arguments":[
+      "List[struct GmClProto::MapChannelInfo]"
+    ]
+  },
+  {
+    "name":"ObjectUID",
+    "arguments":[
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"ObjectUIDList",
+    "arguments":[
+      "List[struct GmClProto::ObjectUID]"
+    ]
+  },
+  {
+    "name":"accomplished_item_garage_operation_t",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"active_restriction_ticket",
+    "arguments":[
+      "struct GmClProto::restriction_id_t",
+      "unsigned int",
+      "struct GmClProto::time_t"
+    ]
+  },
+  {
+    "name":"activities_t",
+    "arguments":[
+      "List[unsigned __int64]"
+    ]
+  },
+  {
+    "name":"alt_money_accumulation_config_t",
+    "arguments":[
+      "__int64",
+      "__int64",
+      "__int64",
+      "__int64"
+    ]
+  },
+  {
+    "name":"alt_money_attributes_t",
+    "arguments":[
+      "List[int]"
+    ]
+  },
+  {
+    "name":"alt_money_config_t",
+    "arguments":[
+      "class GmClProto::e_GmClUnifiedItemType",
+      "unsigned int",
+      "string",
+      "string",
+      "string",
+      "unsigned int",
+      "class GmClProto::alt_money_attributes_t",
+      "struct GmClProto::time_t",
+      "__int64",
+      "class GmClProto::e_GmClUnifiedItemType",
+      "unsigned int",
+      "class GmClProto::t_UnifiedItemIds",
+      "unsigned int",
+      "class GmClProto::element_type",
+      "bool",
+      "struct GmClProto::time_t",
+      "unsigned __int64",
+      "int",
+      "struct GmClProto::t_UnifiedItemQuantity",
+      "class GmClProto::optional_item_config_t",
+      "class GmClProto::optional_alt_money_accumulation_config_t",
+      "class GmClProto::optional_alt_money_trading_config_t",
+      "class GmClProto::item_addon_configs_t",
+      "class GmClProto::optional_skill_config_t",
+      "__int64",
+      "class GmClProto::optional_status_attribute_config_t",
+      "class GmClProto::optional_status_attribute_item_config_t",
+      "class GmClProto::optional_clan_room_interior_config",
+      "struct GmClProto::t_UnifiedItemQuantity",
+      "int"
+    ]
+  },
+  {
+    "name":"alt_money_configs_t",
+    "arguments":[
+      "List[struct GmClProto::alt_money_config_t]"
+    ]
+  },
+  {
+    "name":"alt_money_identifier_t",
+    "arguments":[
+      "struct GmClProto::t_UnifiedItemUId",
+      "struct GmClProto::t_UnifiedItemId"
+    ]
+  },
+  {
+    "name":"alt_money_identifier_with_ignore_range_max_list_t",
+    "arguments":[
+      "List[struct GmClProto::alt_money_identifier_with_ignore_range_max_t]"
+    ]
+  },
+  {
+    "name":"alt_money_identifier_with_ignore_range_max_t",
+    "arguments":[
+      "struct GmClProto::alt_money_qty_t",
+      "bool"
+    ]
+  },
+  {
+    "name":"alt_money_identifiers_t",
+    "arguments":[
+      "List[struct GmClProto::alt_money_identifier_t]"
+    ]
+  },
+  {
+    "name":"alt_money_level_dependent_trading_config_t",
+    "arguments":[
+      "unsigned int",
+      "bool",
+      "struct GmClProto::t_UnifiedItemQuantity",
+      "class GmClProto::items_t"
+    ]
+  },
+  {
+    "name":"alt_money_level_dependent_trading_configs_t",
+    "arguments":[
+      "List[struct GmClProto::alt_money_level_dependent_trading_config_t]"
+    ]
+  },
+  {
+    "name":"alt_money_list",
+    "arguments":[
+      "List[struct GmClProto::alt_money_t]"
+    ]
+  },
+  {
+    "name":"alt_money_modification_t",
+    "arguments":[
+      "struct GmClProto::alt_money_identifier_t",
+      "__int64",
+      "__int64",
+      "__int64",
+      "bool",
+      "bool",
+      "__int64",
+      "bool",
+      "string",
+      "__int64",
+      "__int64",
+      "__int64",
+      "__int64",
+      "bool"
+    ]
+  },
+  {
+    "name":"alt_money_modifications_t",
+    "arguments":[
+      "List[struct GmClProto::alt_money_modification_t]"
+    ]
+  },
+  {
+    "name":"alt_money_qty_t",
+    "arguments":[
+      "struct GmClProto::alt_money_identifier_t",
+      "__int64"
+    ]
+  },
+  {
+    "name":"alt_money_qtys_t",
+    "arguments":[
+      "List[struct GmClProto::alt_money_qty_t]"
+    ]
+  },
+  {
+    "name":"alt_money_t",
+    "arguments":[
+      "class GmClProto::e_GmClUnifiedItemType",
+      "unsigned int",
+      "__int64"
+    ]
+  },
+  {
+    "name":"alt_money_trading_config_t",
+    "arguments":[
+      "class GmClProto::alt_money_level_dependent_trading_configs_t"
+    ]
+  },
+  {
+    "name":"alt_money_unit_t",
+    "arguments":[
+      "class GmClProto::e_GmClUnifiedItemType",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"alt_money_units_t",
+    "arguments":[
+      "List[struct GmClProto::alt_money_unit_t]"
+    ]
+  },
+  {
+    "name":"alt_money_with_last_update_list",
+    "arguments":[
+      "List[struct GmClProto::alt_money_with_last_update_t]"
+    ]
+  },
+  {
+    "name":"alt_money_with_last_update_t",
+    "arguments":[
+      "class GmClProto::e_GmClUnifiedItemType",
+      "unsigned int",
+      "__int64",
+      "struct GmClProto::time_t",
+      "unsigned __int64",
+      "class GmClProto::e_GmClUnifiedItemUIdType",
+      "unsigned __int64",
+      "string",
+      "__int64",
+      "__int64",
+      "unsigned __int64"
+    ]
+  },
+  {
+    "name":"arrCharShape",
+    "arguments":[
+      "List[int]"
+    ]
+  },
+  {
+    "name":"arrWindowCtrl",
+    "arguments":[
+      "List[struct GmClProto::t_WindowCtrl]"
+    ]
+  },
+  {
+    "name":"atekuji_result_reward_t",
+    "arguments":[
+      "struct GmClProto::t_UnifiedItemId",
+      "struct GmClProto::t_UnifiedItemQuantity",
+      "bool",
+      "unsigned __int64"
+    ]
+  },
+  {
+    "name":"atekuji_result_rewards_t",
+    "arguments":[
+      "List[struct GmClProto::atekuji_result_reward_t]"
+    ]
+  },
+  {
+    "name":"auxiliary_t",
+    "arguments":[
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"avacolle_result_t",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"available_lot_counts_t",
+    "arguments":[
+      "List[unsigned int]"
+    ]
+  },
+  {
+    "name":"available_restriction_ticket",
+    "arguments":[
+      "struct GmClProto::restriction_id_t",
+      "unsigned int",
+      "struct GmClProto::duration_t"
+    ]
+  },
+  {
+    "name":"bingo_attribute_t",
+    "arguments":[
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "bool"
+    ]
+  },
+  {
+    "name":"bingo_card_ids_t",
+    "arguments":[
+      "List[unsigned int]"
+    ]
+  },
+  {
+    "name":"bingo_card_t",
+    "arguments":[
+      "unsigned int",
+      "unsigned __int64",
+      "struct GmClProto::bingo_attribute_t",
+      "unsigned int",
+      "int",
+      "struct GmClProto::bingo_rewards_t"
+    ]
+  },
+  {
+    "name":"bingo_cards_t",
+    "arguments":[
+      "List[struct GmClProto::bingo_card_t]"
+    ]
+  },
+  {
+    "name":"bingo_emission_arr_t",
+    "arguments":[
+      "List[struct GmClProto::bingo_emission_t]"
+    ]
+  },
+  {
+    "name":"bingo_emission_t",
+    "arguments":[
+      "unsigned int",
+      "class GmClProto::t_QuestRewardRecordArray"
+    ]
+  },
+  {
+    "name":"bingo_emissions_t",
+    "arguments":[
+      "class GmClProto::bingo_emission_arr_t",
+      "class GmClProto::bingo_emission_arr_t"
+    ]
+  },
+  {
+    "name":"bingo_response_header_t",
+    "arguments":[
+      "unsigned int",
+      "class GmClProto::result_t",
+      "string"
+    ]
+  },
+  {
+    "name":"bingo_reward_arr_t",
+    "arguments":[
+      "List[struct GmClProto::bingo_reward_t]"
+    ]
+  },
+  {
+    "name":"bingo_reward_t",
+    "arguments":[
+      "unsigned int",
+      "class GmClProto::t_QuestRewardSrcBaseArray",
+      "bool"
+    ]
+  },
+  {
+    "name":"bingo_rewards_t",
+    "arguments":[
+      "class GmClProto::bingo_reward_arr_t",
+      "class GmClProto::bingo_reward_arr_t"
+    ]
+  },
+  {
+    "name":"blob_t",
+    "arguments":[
+      "List[unsigned int]"
+    ]
+  },
+  {
+    "name":"box_gacha_icon_t",
+    "arguments":[
+      "unsigned int",
+      "string"
+    ]
+  },
+  {
+    "name":"box_gacha_icons_t",
+    "arguments":[
+      "List[struct GmClProto::box_gacha_icon_t]"
+    ]
+  },
+  {
+    "name":"box_gacha_item_group_t",
+    "arguments":[
+      "unsigned int",
+      "class GmClProto::box_gacha_items_t",
+      "int",
+      "int",
+      "unsigned int",
+      "unsigned int",
+      "bool"
+    ]
+  },
+  {
+    "name":"box_gacha_item_groups_t",
+    "arguments":[
+      "List[struct GmClProto::box_gacha_item_group_t]"
+    ]
+  },
+  {
+    "name":"box_gacha_item_t",
+    "arguments":[
+      "unsigned int",
+      "class GmClProto::gacha_result_type_t",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"box_gacha_items_t",
+    "arguments":[
+      "List[struct GmClProto::box_gacha_item_t]"
+    ]
+  },
+  {
+    "name":"bundled_alt_money_list_t",
+    "arguments":[
+      "List[struct GmClProto::bundled_alt_money_t]"
+    ]
+  },
+  {
+    "name":"bundled_alt_money_t",
+    "arguments":[
+      "struct GmClProto::mail_uid_t",
+      "struct GmClProto::cuid_t",
+      "struct GmClProto::time_t",
+      "bool",
+      "unsigned int",
+      "__int64",
+      "__int64",
+      "__int64",
+      "unsigned int",
+      "__int64",
+      "__int64",
+      "__int64"
+    ]
+  },
+  {
+    "name":"campaign_bonus",
+    "arguments":[
+      "unsigned int",
+      "float"
+    ]
+  },
+  {
+    "name":"campaign_bonus_table",
+    "arguments":[
+      "List[struct GmClProto::campaign_bonus]"
+    ]
+  },
+  {
+    "name":"campaign_code_action",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"campaign_code_result",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"campaign_code_t",
+    "arguments":[
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"channel_t",
+    "arguments":[
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"character_info_t",
+    "arguments":[
+      "unsigned __int64",
+      "string",
+      "struct GmClProto::t_CharShape"
+    ]
+  },
+  {
+    "name":"clan_board_comment_count_t",
+    "arguments":[
+      "struct GmClProto::clan_board_subject_uid_t",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"clan_board_comment_counts_t",
+    "arguments":[
+      "List[struct GmClProto::clan_board_comment_count_t]"
+    ]
+  },
+  {
+    "name":"clan_board_comment_uid_t",
+    "arguments":[
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"clan_board_subject_uid_t",
+    "arguments":[
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"clan_board_subject_uids_t",
+    "arguments":[
+      "List[struct GmClProto::clan_board_subject_uid_t]"
+    ]
+  },
+  {
+    "name":"clan_board_type",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"clan_delivery_item_info_list_t",
+    "arguments":[
+      "List[struct GmClProto::clan_delivery_item_info_t]"
+    ]
+  },
+  {
+    "name":"clan_delivery_item_info_t",
+    "arguments":[
+      "struct GmClProto::alt_money_config_t",
+      "__int64"
+    ]
+  },
+  {
+    "name":"clan_exp_t",
+    "arguments":[
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"clan_exp_table_t",
+    "arguments":[
+      "List[struct GmClProto::clan_exp_t]"
+    ]
+  },
+  {
+    "name":"clan_invitation_appeal_t",
+    "arguments":[
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"clan_invitation_message_t",
+    "arguments":[
+      "struct GmClProto::mail_uid_t",
+      "struct GmClProto::cuid_t",
+      "struct GmClProto::time_t",
+      "bool",
+      "struct GmClProto::clan_uid_t",
+      "string",
+      "string"
+    ]
+  },
+  {
+    "name":"clan_invitation_messages_t",
+    "arguments":[
+      "List[struct GmClProto::clan_invitation_message_t]"
+    ]
+  },
+  {
+    "name":"clan_mission_reset_mode_t",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"clan_mission_trigger_t",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"clan_post_t",
+    "arguments":[
+      "class GmClProto::e_ClanPost",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"clan_privilege_list_t",
+    "arguments":[
+      "List[struct GmClProto::clan_privilege_t]"
+    ]
+  },
+  {
+    "name":"clan_privilege_t",
+    "arguments":[
+      "unsigned __int64",
+      "bool"
+    ]
+  },
+  {
+    "name":"clan_room_interior_config",
+    "arguments":[
+      "int",
+      "string",
+      "string",
+      "int",
+      "bool",
+      "bool"
+    ]
+  },
+  {
+    "name":"clan_room_set_t",
+    "arguments":[
+      "string",
+      "class GmClProto::interior_positions_t",
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"clan_room_sets_t",
+    "arguments":[
+      "List[struct GmClProto::clan_room_set_t]"
+    ]
+  },
+  {
+    "name":"clan_shop_result_t",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"clan_skill_t",
+    "arguments":[
+      "struct GmClProto::t_UnifiedItemId",
+      "struct GmClProto::t_UnifiedItemId",
+      "unsigned int",
+      "__int64",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"clan_skills_t",
+    "arguments":[
+      "List[struct GmClProto::clan_skill_t]"
+    ]
+  },
+  {
+    "name":"clan_uid_t",
+    "arguments":[
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"content_mask_t",
+    "arguments":[
+      "class GmClProto::content_mask_type_t",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"content_mask_type_t",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"content_masks_t",
+    "arguments":[
+      "List[struct GmClProto::content_mask_t]"
+    ]
+  },
+  {
+    "name":"content_schedule_t",
+    "arguments":[
+      "class GmClProto::content_schedule_type_t",
+      "unsigned __int64",
+      "unsigned __int64"
+    ]
+  },
+  {
+    "name":"content_schedule_type_t",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"core_name",
+    "arguments":[
+      "char const *"
+    ]
+  },
+  {
+    "name":"core_names",
+    "arguments":[
+      "List[class GmClProto::core_name]"
+    ]
+  },
+  {
+    "name":"coupon_config_t",
+    "arguments":[
+      "struct GmClProto::t_UnifiedItemId",
+      "struct GmClProto::time_t",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "bool"
+    ]
+  },
+  {
+    "name":"coupon_configs_t",
+    "arguments":[
+      "List[struct GmClProto::coupon_config_t]"
+    ]
+  },
+  {
+    "name":"coupon_ids_t",
+    "arguments":[
+      "List[struct GmClProto::t_UnifiedItemId]"
+    ]
+  },
+  {
+    "name":"coupon_reward_t",
+    "arguments":[
+      "struct GmClProto::t_UnifiedItemId",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "int",
+      "__int64",
+      "string",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"coupon_rewards_t",
+    "arguments":[
+      "List[struct GmClProto::coupon_reward_t]"
+    ]
+  },
+  {
+    "name":"create_item_attribute_t",
+    "arguments":[
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "class GmClProto::skill_levels_t"
+    ]
+  },
+  {
+    "name":"cuid_t",
+    "arguments":[
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"cuids_t",
+    "arguments":[
+      "List[unsigned __int64]"
+    ]
+  },
+  {
+    "name":"derive_coef",
+    "arguments":[
+      "float",
+      "float",
+      "float",
+      "float",
+      "class GmClProto::campaign_bonus_table"
+    ]
+  },
+  {
+    "name":"derive_estimation",
+    "arguments":[
+      "struct GmClProto::skill",
+      "float"
+    ]
+  },
+  {
+    "name":"destination_t",
+    "arguments":[
+      "unsigned int",
+      "struct GmClProto::channel_t",
+      "struct GmClProto::topic_t",
+      "struct GmClProto::auxiliary_t"
+    ]
+  },
+  {
+    "name":"destinations",
+    "arguments":[
+      "List[struct GmClProto::destination_t]"
+    ]
+  },
+  {
+    "name":"detailed_item_list",
+    "arguments":[
+      "List[struct GmClProto::t_ItemInfoOne]"
+    ]
+  },
+  {
+    "name":"dialog_id_t",
+    "arguments":[
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"dialog_result",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"duration_t",
+    "arguments":[
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"e_ActiveEnemyEnchant",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_ActiveEnemyResult",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_ActiveEnemyState",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_AppReviewResult",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_AppearReason",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_AvatarItemShopResultStatus",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_AvatarItemShopSalesType",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_AvatarItemShopSendStatus",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_BasicStatusKey",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_BatleElementType",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_BatleEquipmentSetKind",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_BattleAppearKind",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_BattleBoostType",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_BattleCardKind",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_BattleCardOpenState",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_BattleChainType",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_BattleCharElemental",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_BattleCharKind",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_BattleDirection",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_BattleDropStageType",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_BattleGaugeProductionKind",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_BattleItemGaugeMaximumKind",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_BattleMotionEffectDisplayType",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_BattleResultType",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_BattleScoreType",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_BattleShieldDisplayInfo",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_BattleShieldDisplayType",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_BattleSkillEffectPriority",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_BattleSkillEffectType",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_BattleSkillModeType",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_BattleSkillTargetType",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_BattleSkillUsableCountMode",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_BattleTimerEffectType",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_BattleTimerType",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_BlackListDevideSendParam",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_BoutCharAppearDisplayRule",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_BoutCharBeforeEnterShowInfoKind",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_CheckEventPointExchangeResultStatus",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_ClanPost",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_CommunityRelationKind",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_CoordinateFeelGoodRequestKind",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_DisappearReason",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_EastWestGameSchedule",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_EmblemParameterType",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_EventGaugeScheduleState",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_EventPointLineupTab",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_EventPointRewardListSendStatus",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_EventPointRewardResultStatus",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_ExecuteState",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_FashionShowResult",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_FashionShowRewardKind",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_FashionShowScheduleState",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_FavoriteSixthSenseParam",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_GachaImage",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_GmClAccountLoginResultCode",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_GmClAvatarCollectionSendType",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_GmClAvatarCoordinateModifyResult",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_GmClAvatarItemKind",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_GmClAvatarLayerGroup",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_GmClBlackListAppendResult",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_GmClBlackListDeleteResult",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_GmClCharCreateResult",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_GmClCharLoginReplyCode",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_GmClCharProfileResult",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_GmClChatSendResult",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_GmClDivideSendStatus",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_GmClFormAvatarType",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_GmClGachaLotResult",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_GmClGemShopBuyResult",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_GmClGiftHistoryDeleteKind",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_GmClGiftHistoryPageFilterStateKind",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_GmClGiftHistoryPageOrderKind",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_GmClGiftPageFilterTypeKind",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_GmClGiftPageOrderKind",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_GmClGiftReceiveKind",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_GmClGiftResultCode",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_GmClLocationBonusKind",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_GmClLocationBonusResults",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_GmClLocationResults",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_GmClOptionUpdate",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_GmClPaymentResult",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_GmClReturnLevel",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_GmClSellResult",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_GmClUnifiedItemType",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_GmClUnifiedItemUIdType",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_InAppPurchaseProductType",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_ItemInfoDevideSendParam",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_JobAbilityStatusInfoDevideSendParam",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_LevelModifyExtendEffectID",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_LevelModifyType",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_NoahDebugCommandKind",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_PushNotificationOption",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_PushNotificationResult",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_QuestDevideSendParam",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_QuestRetireResult",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_QuestSubMissionProgressType",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_QuestTreasureKind",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_QuestTrophyCollectKind",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_RaidResultPenaltyInfo",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_RaidUnreadResultKind",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_WarningKind",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_WarningResult",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_WarpReason",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_collabo_elest_reward_result",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_collabo_ffrk_reward_result",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_collabo_tlgd_reward_result",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_collabo_unison_reward_result",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"e_lot_box_reset_condition",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"east_west_team_t",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"element_type",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"emblem_parameter_t",
+    "arguments":[
+      "class GmClProto::e_EmblemParameterType",
+      "unsigned int",
+      "string",
+      "string"
+    ]
+  },
+  {
+    "name":"emblem_parameters_t",
+    "arguments":[
+      "List[struct GmClProto::emblem_parameter_t]"
+    ]
+  },
+  {
+    "name":"emblem_t",
+    "arguments":[
+      "unsigned int",
+      "unsigned __int64",
+      "class GmClProto::emblem_parameters_t",
+      "bool",
+      "bool",
+      "bool",
+      "unsigned __int64"
+    ]
+  },
+  {
+    "name":"emblem_uids_t",
+    "arguments":[
+      "List[unsigned __int64]"
+    ]
+  },
+  {
+    "name":"emblems_t",
+    "arguments":[
+      "List[struct GmClProto::emblem_t]"
+    ]
+  },
+  {
+    "name":"event_gauge_limit_list_t",
+    "arguments":[
+      "List[unsigned int]"
+    ]
+  },
+  {
+    "name":"event_material_info_t",
+    "arguments":[
+      "struct GmClProto::t_UnifiedItemId",
+      "string",
+      "unsigned int",
+      "unsigned int",
+      "string"
+    ]
+  },
+  {
+    "name":"event_material_infos_t",
+    "arguments":[
+      "List[struct GmClProto::event_material_info_t]"
+    ]
+  },
+  {
+    "name":"event_medal_convert_info_t",
+    "arguments":[
+      "struct GmClProto::t_UnifiedItemQuantity",
+      "struct GmClProto::t_UnifiedItemQuantity"
+    ]
+  },
+  {
+    "name":"event_medal_convert_infos_t",
+    "arguments":[
+      "List[struct GmClProto::event_medal_convert_info_t]"
+    ]
+  },
+  {
+    "name":"event_uid_list",
+    "arguments":[
+      "List[unsigned __int64]"
+    ]
+  },
+  {
+    "name":"evolution_material_t",
+    "arguments":[
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "class GmClProto::e_GmClUnifiedItemType"
+    ]
+  },
+  {
+    "name":"evolution_materials_t",
+    "arguments":[
+      "List[struct GmClProto::evolution_material_t]"
+    ]
+  },
+  {
+    "name":"evolution_morphism_t",
+    "arguments":[
+      "class GmClProto::fusion_direction",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "class GmClProto::evolution_materials_t",
+      "unsigned int",
+      "class GmClProto::e_GmClUnifiedItemType",
+      "class GmClProto::e_GmClUnifiedItemType"
+    ]
+  },
+  {
+    "name":"evolution_morphisms_t",
+    "arguments":[
+      "List[struct GmClProto::evolution_morphism_t]"
+    ]
+  },
+  {
+    "name":"evolve_a3v2_additional_material_bonus_t",
+    "arguments":[
+      "int",
+      "int",
+      "bool",
+      "struct GmClProto::rational_t"
+    ]
+  },
+  {
+    "name":"evolve_a3v2_additional_material_bonus_table_t",
+    "arguments":[
+      "List[struct GmClProto::evolve_a3v2_additional_material_bonus_t]"
+    ]
+  },
+  {
+    "name":"evolve_a3v2_additional_material_skill_bonus_t",
+    "arguments":[
+      "struct GmClProto::skill_location_t",
+      "unsigned int",
+      "struct GmClProto::rational_t"
+    ]
+  },
+  {
+    "name":"evolve_a3v2_additional_material_skill_bonus_table_t",
+    "arguments":[
+      "List[struct GmClProto::evolve_a3v2_additional_material_skill_bonus_t]"
+    ]
+  },
+  {
+    "name":"evolve_a3v2_required_material_t",
+    "arguments":[
+      "int",
+      "bool",
+      "struct GmClProto::t_UnifiedItemQuantity"
+    ]
+  },
+  {
+    "name":"evolve_a3v2_required_material_table_t",
+    "arguments":[
+      "List[struct GmClProto::evolve_a3v2_required_material_t]"
+    ]
+  },
+  {
+    "name":"evolve_coef",
+    "arguments":[
+      "float",
+      "float",
+      "float",
+      "float"
+    ]
+  },
+  {
+    "name":"evolve_restriction_series_name_t",
+    "arguments":[
+      "char const *"
+    ]
+  },
+  {
+    "name":"evolve_restriction_series_names_t",
+    "arguments":[
+      "List[class GmClProto::evolve_restriction_series_name_t]"
+    ]
+  },
+  {
+    "name":"exp_table_element_t",
+    "arguments":[
+      "struct GmClProto::t_UnifiedItemId",
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"exp_table_t",
+    "arguments":[
+      "List[struct GmClProto::exp_table_element_t]"
+    ]
+  },
+  {
+    "name":"extend_coef",
+    "arguments":[
+      "float",
+      "float",
+      "float",
+      "float",
+      "class GmClProto::campaign_bonus_table"
+    ]
+  },
+  {
+    "name":"fav_items",
+    "arguments":[
+      "List[struct GmClProto::t_ItemUID]"
+    ]
+  },
+  {
+    "name":"fav_result",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"fav_set",
+    "arguments":[
+      "unsigned int",
+      "string",
+      "int",
+      "class GmClProto::fav_items",
+      "class GmClProto::fav_items",
+      "class GmClProto::fav_items",
+      "class GmClProto::fav_items",
+      "class GmClProto::fav_items",
+      "class GmClProto::fav_items",
+      "class GmClProto::fav_items",
+      "class GmClProto::fav_items",
+      "unsigned int",
+      "class GmClProto::selected_skills_t",
+      "class GmClProto::emblem_uids_t"
+    ]
+  },
+  {
+    "name":"fav_sets",
+    "arguments":[
+      "List[struct GmClProto::fav_set]"
+    ]
+  },
+  {
+    "name":"favorite_activities_t",
+    "arguments":[
+      "List[struct GmClProto::favorite_activity_t]"
+    ]
+  },
+  {
+    "name":"favorite_activities_with_cuid_t",
+    "arguments":[
+      "List[struct GmClProto::favorite_activity_with_cuid_t]"
+    ]
+  },
+  {
+    "name":"favorite_activity_t",
+    "arguments":[
+      "unsigned __int64",
+      "bool"
+    ]
+  },
+  {
+    "name":"favorite_activity_with_cuid_t",
+    "arguments":[
+      "unsigned __int64",
+      "unsigned __int64"
+    ]
+  },
+  {
+    "name":"favorite_indexes",
+    "arguments":[
+      "List[unsigned int]"
+    ]
+  },
+  {
+    "name":"favorite_pvp_indexes",
+    "arguments":[
+      "List[unsigned int]"
+    ]
+  },
+  {
+    "name":"favorite_stamps_all_t",
+    "arguments":[
+      "List[class GmClProto::favorite_stamps_t]"
+    ]
+  },
+  {
+    "name":"favorite_stamps_t",
+    "arguments":[
+      "List[unsigned int]"
+    ]
+  },
+  {
+    "name":"fusion_direction",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"fusion_estimation",
+    "arguments":[
+      "struct GmClProto::t_ItemInfoOne",
+      "class GmClProto::skill_list",
+      "bool"
+    ]
+  },
+  {
+    "name":"fusion_estimation_list",
+    "arguments":[
+      "List[struct GmClProto::fusion_estimation]"
+    ]
+  },
+  {
+    "name":"fusion_material_compatibility_t",
+    "arguments":[
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"fusion_material_compatibility_table_t",
+    "arguments":[
+      "List[struct GmClProto::fusion_material_compatibility_t]"
+    ]
+  },
+  {
+    "name":"fusion_result",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"fusion_result_detail",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"fusion_result_subject",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"fusion_target_category_restrictions_t",
+    "arguments":[
+      "List[unsigned int]"
+    ]
+  },
+  {
+    "name":"fusion_type",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"gacha_exp_reward_t",
+    "arguments":[
+      "unsigned int",
+      "class GmClProto::t_UnifiedItemQuantities"
+    ]
+  },
+  {
+    "name":"gacha_exp_rewards_t",
+    "arguments":[
+      "List[struct GmClProto::gacha_exp_reward_t]"
+    ]
+  },
+  {
+    "name":"gacha_requested_for",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"gacha_result",
+    "arguments":[
+      "struct GmClProto::t_ItemUID",
+      "struct GmClProto::t_GachaItemInfo",
+      "bool",
+      "unsigned int",
+      "bool"
+    ]
+  },
+  {
+    "name":"gacha_result_list",
+    "arguments":[
+      "List[struct GmClProto::gacha_result]"
+    ]
+  },
+  {
+    "name":"gacha_result_type_t",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"garage_item_t",
+    "arguments":[
+      "unsigned int",
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"garage_items_t",
+    "arguments":[
+      "List[struct GmClProto::garage_item_t]"
+    ]
+  },
+  {
+    "name":"gift_description",
+    "arguments":[
+      "struct GmClProto::static_item_info",
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"gift_descriptions",
+    "arguments":[
+      "List[struct GmClProto::gift_description]"
+    ]
+  },
+  {
+    "name":"gift_t",
+    "arguments":[
+      "string",
+      "class GmClProto::t_CUIDList",
+      "class GmClProto::rewards_t"
+    ]
+  },
+  {
+    "name":"gifts_t",
+    "arguments":[
+      "List[struct GmClProto::gift_t]"
+    ]
+  },
+  {
+    "name":"god_t",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"group_attribute_t",
+    "arguments":[
+      "unsigned int",
+      "unsigned int",
+      "string"
+    ]
+  },
+  {
+    "name":"group_message",
+    "arguments":[
+      "unsigned __int64",
+      "string"
+    ]
+  },
+  {
+    "name":"group_message_list",
+    "arguments":[
+      "List[struct GmClProto::group_message]"
+    ]
+  },
+  {
+    "name":"grow_coef",
+    "arguments":[
+      "float",
+      "float",
+      "float",
+      "float",
+      "class GmClProto::campaign_bonus_table",
+      "class GmClProto::campaign_bonus_table"
+    ]
+  },
+  {
+    "name":"header_id_t",
+    "arguments":[
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"hirability_declaration_t",
+    "arguments":[
+      "int",
+      "string",
+      "bool"
+    ]
+  },
+  {
+    "name":"imaginary_item_t",
+    "arguments":[
+      "int",
+      "unsigned int",
+      "unsigned int",
+      "string",
+      "string",
+      "string",
+      "int",
+      "unsigned int",
+      "class GmClProto::t_arrItemModel",
+      "int",
+      "unsigned int",
+      "unsigned int",
+      "bool",
+      "int",
+      "class GmClProto::element_type",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "int",
+      "unsigned int",
+      "bool",
+      "bool",
+      "unsigned int",
+      "int",
+      "class GmClProto::e_GmClAvatarItemKind",
+      "struct GmClProto::t_GmBasicStatus",
+      "class GmClProto::t_arrPrefixSkill",
+      "class GmClProto::t_arrPrefixSkill",
+      "class GmClProto::t_arrPrefixSkill",
+      "class GmClProto::t_arrPrefixSkill",
+      "class GmClProto::t_arrPrefixSkill",
+      "class GmClProto::t_arrPrefixSkill",
+      "class GmClProto::t_arrPrefixSkill",
+      "struct GmClProto::t_GmBasicStatusRatio",
+      "class GmClProto::potential_power_table_t",
+      "class GmClProto::fusion_target_category_restrictions_t",
+      "unsigned int",
+      "class GmClProto::skill_material_target_restrictions_t",
+      "unsigned int",
+      "float",
+      "unsigned int",
+      "unsigned int",
+      "class GmClProto::sixth_sense_coins_t",
+      "bool",
+      "unsigned int",
+      "bool",
+      "bool",
+      "struct GmClProto::evolution_morphism_t",
+      "bool",
+      "bool",
+      "bool",
+      "bool",
+      "bool",
+      "int",
+      "int",
+      "class GmClProto::item_specific_antibuff_list_t",
+      "class GmClProto::alt_money_list",
+      "__int64",
+      "unsigned __int64",
+      "unsigned __int64",
+      "class GmClProto::t_UnifiedItemQuantities",
+      "class GmClProto::t_UnifiedItemQuantities",
+      "string",
+      "string",
+      "class GmClProto::evolve_restriction_series_names_t",
+      "bool",
+      "unsigned int",
+      "int",
+      "bool",
+      "class GmClProto::item_ids",
+      "class GmClProto::skill_level_up_group_ids_t",
+      "class GmClProto::god_t"
+    ]
+  },
+  {
+    "name":"imaginary_item_with_result",
+    "arguments":[
+      "class GmClProto::item_result",
+      "struct GmClProto::imaginary_item_t"
+    ]
+  },
+  {
+    "name":"imaginary_item_with_uids",
+    "arguments":[
+      "struct GmClProto::imaginary_item_t",
+      "class GmClProto::item_uids"
+    ]
+  },
+  {
+    "name":"imaginary_items_with_result",
+    "arguments":[
+      "List[struct GmClProto::imaginary_item_with_result]"
+    ]
+  },
+  {
+    "name":"imaginary_items_with_uids",
+    "arguments":[
+      "List[struct GmClProto::imaginary_item_with_uids]"
+    ]
+  },
+  {
+    "name":"interior_position_t",
+    "arguments":[
+      "unsigned __int64",
+      "unsigned int",
+      "int",
+      "int",
+      "bool",
+      "bool"
+    ]
+  },
+  {
+    "name":"interior_positions_t",
+    "arguments":[
+      "List[struct GmClProto::interior_position_t]"
+    ]
+  },
+  {
+    "name":"item_addon_config_t",
+    "arguments":[
+      "struct GmClProto::t_UnifiedItemId",
+      "struct GmClProto::t_UnifiedItemId",
+      "class GmClProto::item_addon_level_dependent_configs_t"
+    ]
+  },
+  {
+    "name":"item_addon_configs_t",
+    "arguments":[
+      "List[struct GmClProto::item_addon_config_t]"
+    ]
+  },
+  {
+    "name":"item_addon_level_dependent_config_detail_t",
+    "arguments":[
+      "unsigned int",
+      "string",
+      "class GmClProto::skills_t",
+      "unsigned int",
+      "unsigned int",
+      "class GmClProto::new_evolution_morphisms_t",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"item_addon_level_dependent_config_t",
+    "arguments":[
+      "unsigned int",
+      "struct GmClProto::item_addon_level_dependent_config_detail_t"
+    ]
+  },
+  {
+    "name":"item_addon_level_dependent_configs_t",
+    "arguments":[
+      "List[struct GmClProto::item_addon_level_dependent_config_t]"
+    ]
+  },
+  {
+    "name":"item_config_t",
+    "arguments":[
+      "class GmClProto::max_levels_t",
+      "class GmClProto::skills_t",
+      "class GmClProto::item_socket_status_bonus_t",
+      "__int64",
+      "bool",
+      "class GmClProto::item_ids"
+    ]
+  },
+  {
+    "name":"item_exp2level_table",
+    "arguments":[
+      "List[unsigned int]"
+    ]
+  },
+  {
+    "name":"item_group_filter_t",
+    "arguments":[
+      "struct GmClProto::t_UnifiedItemId",
+      "struct GmClProto::t_UnifiedItemId",
+      "unsigned int",
+      "unsigned int",
+      "class GmClProto::skill_levels_t",
+      "__int64",
+      "__int64",
+      "__int64",
+      "struct GmClProto::t_UnifiedItemId",
+      "struct GmClProto::t_UnifiedItemId",
+      "struct GmClProto::t_UnifiedItemId"
+    ]
+  },
+  {
+    "name":"item_group_filters_t",
+    "arguments":[
+      "List[struct GmClProto::item_group_filter_t]"
+    ]
+  },
+  {
+    "name":"item_group_t",
+    "arguments":[
+      "class GmClProto::item_ids",
+      "__int64"
+    ]
+  },
+  {
+    "name":"item_groups_t",
+    "arguments":[
+      "List[struct GmClProto::item_group_t]"
+    ]
+  },
+  {
+    "name":"item_id_and_count",
+    "arguments":[
+      "unsigned int",
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"item_id_and_counts",
+    "arguments":[
+      "List[struct GmClProto::item_id_and_count]"
+    ]
+  },
+  {
+    "name":"item_id_with_level",
+    "arguments":[
+      "unsigned int",
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"item_ids",
+    "arguments":[
+      "List[unsigned int]"
+    ]
+  },
+  {
+    "name":"item_ids_with_level",
+    "arguments":[
+      "List[struct GmClProto::item_id_with_level]"
+    ]
+  },
+  {
+    "name":"item_list",
+    "arguments":[
+      "List[struct GmClProto::t_ItemUID]"
+    ]
+  },
+  {
+    "name":"item_modification_t",
+    "arguments":[
+      "struct GmClProto::item_t",
+      "class GmClProto::alt_money_modifications_t"
+    ]
+  },
+  {
+    "name":"item_modifications_t",
+    "arguments":[
+      "List[struct GmClProto::item_modification_t]"
+    ]
+  },
+  {
+    "name":"item_protection_state",
+    "arguments":[
+      "struct GmClProto::t_ItemUID",
+      "bool"
+    ]
+  },
+  {
+    "name":"item_protection_states",
+    "arguments":[
+      "List[struct GmClProto::item_protection_state]"
+    ]
+  },
+  {
+    "name":"item_result",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"item_results",
+    "arguments":[
+      "List[class GmClProto::item_result]"
+    ]
+  },
+  {
+    "name":"item_socket_state_t",
+    "arguments":[
+      "unsigned int",
+      "unsigned __int64"
+    ]
+  },
+  {
+    "name":"item_socket_states_t",
+    "arguments":[
+      "List[struct GmClProto::item_socket_state_t]"
+    ]
+  },
+  {
+    "name":"item_socket_status_bonus_element_t",
+    "arguments":[
+      "unsigned int",
+      "class GmClProto::item_status_diffs_t"
+    ]
+  },
+  {
+    "name":"item_socket_status_bonus_t",
+    "arguments":[
+      "List[struct GmClProto::item_socket_status_bonus_element_t]"
+    ]
+  },
+  {
+    "name":"item_socket_steps_t",
+    "arguments":[
+      "List[unsigned int]"
+    ]
+  },
+  {
+    "name":"item_specific_antibuff_list_t",
+    "arguments":[
+      "List[struct GmClProto::item_specific_antibuff_t]"
+    ]
+  },
+  {
+    "name":"item_specific_antibuff_t",
+    "arguments":[
+      "unsigned int",
+      "string"
+    ]
+  },
+  {
+    "name":"item_status_diff_t",
+    "arguments":[
+      "class GmClProto::sixth_sense_job_ability_id_t",
+      "float"
+    ]
+  },
+  {
+    "name":"item_status_diffs_t",
+    "arguments":[
+      "List[struct GmClProto::item_status_diff_t]"
+    ]
+  },
+  {
+    "name":"item_t",
+    "arguments":[
+      "struct GmClProto::t_UnifiedItemQuantity",
+      "struct GmClProto::item_unique_attribute_t"
+    ]
+  },
+  {
+    "name":"item_uids",
+    "arguments":[
+      "List[struct GmClProto::t_ItemUID]"
+    ]
+  },
+  {
+    "name":"item_unique_attribute_t",
+    "arguments":[
+      "struct GmClProto::create_item_attribute_t",
+      "struct GmClProto::t_UnifiedItemUId"
+    ]
+  },
+  {
+    "name":"items_t",
+    "arguments":[
+      "List[struct GmClProto::item_t]"
+    ]
+  },
+  {
+    "name":"labeled_fusion_material_t",
+    "arguments":[
+      "struct GmClProto::t_UnifiedItemId",
+      "struct GmClProto::alt_money_t",
+      "unsigned __int64"
+    ]
+  },
+  {
+    "name":"labeled_fusion_materials_t",
+    "arguments":[
+      "List[struct GmClProto::labeled_fusion_material_t]"
+    ]
+  },
+  {
+    "name":"limited_evolve_material_ids_t",
+    "arguments":[
+      "List[int]"
+    ]
+  },
+  {
+    "name":"lot_box_item_group_t",
+    "arguments":[
+      "unsigned __int64",
+      "struct GmClProto::t_UnifiedItemQuantity",
+      "int",
+      "int",
+      "unsigned int",
+      "unsigned int",
+      "bool",
+      "unsigned __int64",
+      "unsigned int",
+      "unsigned __int64"
+    ]
+  },
+  {
+    "name":"lot_box_item_groups_t",
+    "arguments":[
+      "List[struct GmClProto::lot_box_item_group_t]"
+    ]
+  },
+  {
+    "name":"lot_box_result_t",
+    "arguments":[
+      "struct GmClProto::t_UnifiedItemQuantity",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"lot_box_results_t",
+    "arguments":[
+      "List[struct GmClProto::lot_box_result_t]"
+    ]
+  },
+  {
+    "name":"lot_box_reward_t",
+    "arguments":[
+      "struct GmClProto::t_UnifiedItemQuantity",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"lot_box_rewards_t",
+    "arguments":[
+      "List[struct GmClProto::lot_box_reward_t]"
+    ]
+  },
+  {
+    "name":"lot_box_state_list_t",
+    "arguments":[
+      "List[struct GmClProto::lot_box_state_t]"
+    ]
+  },
+  {
+    "name":"lot_box_state_t",
+    "arguments":[
+      "struct GmClProto::t_UnifiedItemId",
+      "struct GmClProto::t_UnifiedItemQuantity",
+      "class GmClProto::lot_box_item_groups_t",
+      "class GmClProto::lot_item_groups_t",
+      "class GmClProto::lot_item_groups_t",
+      "bool",
+      "bool",
+      "class GmClProto::e_lot_box_reset_condition",
+      "unsigned int",
+      "unsigned int",
+      "class GmClProto::available_lot_counts_t",
+      "class GmClProto::lot_icons_t",
+      "struct GmClProto::t_UnifiedItemId",
+      "class GmClProto::e_GachaImage"
+    ]
+  },
+  {
+    "name":"lot_icon_t",
+    "arguments":[
+      "unsigned int",
+      "string"
+    ]
+  },
+  {
+    "name":"lot_icons_t",
+    "arguments":[
+      "List[struct GmClProto::lot_icon_t]"
+    ]
+  },
+  {
+    "name":"lot_item_group_t",
+    "arguments":[
+      "struct GmClProto::t_UnifiedItemQuantity",
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"lot_item_groups_t",
+    "arguments":[
+      "List[struct GmClProto::lot_item_group_t]"
+    ]
+  },
+  {
+    "name":"lotcore_table_t",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"mail_box_updated_date_t",
+    "arguments":[
+      "unsigned int",
+      "__int64"
+    ]
+  },
+  {
+    "name":"mail_box_updated_dates_t",
+    "arguments":[
+      "List[struct GmClProto::mail_box_updated_date_t]"
+    ]
+  },
+  {
+    "name":"mail_event_t",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"mail_range_t",
+    "arguments":[
+      "struct GmClProto::mail_uid_t",
+      "struct GmClProto::mail_uid_t"
+    ]
+  },
+  {
+    "name":"mail_ranges_t",
+    "arguments":[
+      "List[struct GmClProto::mail_range_t]"
+    ]
+  },
+  {
+    "name":"mail_t",
+    "arguments":[
+      "struct GmClProto::mail_uid_t",
+      "struct GmClProto::cuid_t",
+      "struct GmClProto::time_t",
+      "struct GmClProto::time_t",
+      "bool",
+      "string",
+      "int"
+    ]
+  },
+  {
+    "name":"mail_uid_t",
+    "arguments":[
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"mails_t",
+    "arguments":[
+      "List[struct GmClProto::mail_t]"
+    ]
+  },
+  {
+    "name":"material_categories_t",
+    "arguments":[
+      "List[struct GmClProto::material_category_t]"
+    ]
+  },
+  {
+    "name":"material_category_t",
+    "arguments":[
+      "unsigned int",
+      "string",
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"max_levels_t",
+    "arguments":[
+      "List[unsigned int]"
+    ]
+  },
+  {
+    "name":"mission_categories_t",
+    "arguments":[
+      "List[struct GmClProto::mission_category_t]"
+    ]
+  },
+  {
+    "name":"mission_category_t",
+    "arguments":[
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "class GmClProto::rewards_t",
+      "bool",
+      "unsigned __int64",
+      "unsigned __int64",
+      "class GmClProto::clan_mission_reset_mode_t"
+    ]
+  },
+  {
+    "name":"mission_t",
+    "arguments":[
+      "unsigned int",
+      "string",
+      "string",
+      "unsigned int",
+      "unsigned int",
+      "class GmClProto::rewards_t",
+      "class GmClProto::clan_mission_trigger_t",
+      "string",
+      "bool",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"missions_t",
+    "arguments":[
+      "List[struct GmClProto::mission_t]"
+    ]
+  },
+  {
+    "name":"name_prefix_category_t",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"name_prefix_list_t",
+    "arguments":[
+      "List[struct GmClProto::name_prefix_t]"
+    ]
+  },
+  {
+    "name":"name_prefix_t",
+    "arguments":[
+      "class GmClProto::name_prefix_category_t",
+      "string"
+    ]
+  },
+  {
+    "name":"new_evolution_material_t",
+    "arguments":[
+      "struct GmClProto::t_UnifiedItemId",
+      "struct GmClProto::unified_item_query_t",
+      "__int64"
+    ]
+  },
+  {
+    "name":"new_evolution_materials_t",
+    "arguments":[
+      "List[struct GmClProto::new_evolution_material_t]"
+    ]
+  },
+  {
+    "name":"new_evolution_morphism_rule_t",
+    "arguments":[
+      "class GmClProto::fusion_direction",
+      "unsigned int",
+      "struct GmClProto::t_UnifiedItemId",
+      "struct GmClProto::t_UnifiedItemId",
+      "unsigned int",
+      "unsigned int",
+      "class GmClProto::new_evolution_materials_t",
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"new_evolution_morphism_t",
+    "arguments":[
+      "struct GmClProto::new_evolution_morphism_rule_t",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"new_evolution_morphisms_t",
+    "arguments":[
+      "List[struct GmClProto::new_evolution_morphism_t]"
+    ]
+  },
+  {
+    "name":"optional_alt_money_accumulation_config_t",
+    "arguments":[
+      "List[struct GmClProto::alt_money_accumulation_config_t]"
+    ]
+  },
+  {
+    "name":"optional_alt_money_trading_config_t",
+    "arguments":[
+      "List[struct GmClProto::alt_money_trading_config_t]"
+    ]
+  },
+  {
+    "name":"optional_clan_room_interior_config",
+    "arguments":[
+      "List[struct GmClProto::clan_room_interior_config]"
+    ]
+  },
+  {
+    "name":"optional_item_config_t",
+    "arguments":[
+      "List[struct GmClProto::item_config_t]"
+    ]
+  },
+  {
+    "name":"optional_skill_config_t",
+    "arguments":[
+      "List[struct GmClProto::skill_config_t]"
+    ]
+  },
+  {
+    "name":"optional_status_attribute_config_t",
+    "arguments":[
+      "List[struct GmClProto::status_attribute_config_t]"
+    ]
+  },
+  {
+    "name":"optional_status_attribute_item_config_t",
+    "arguments":[
+      "List[struct GmClProto::status_attribute_item_config_t]"
+    ]
+  },
+  {
+    "name":"party_id_t",
+    "arguments":[
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"party_recruitment_event_t",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"party_recruitment_jobs_t",
+    "arguments":[
+      "List[unsigned int]"
+    ]
+  },
+  {
+    "name":"party_recruitment_t",
+    "arguments":[
+      "unsigned __int64",
+      "unsigned __int64",
+      "unsigned __int64",
+      "string",
+      "unsigned int",
+      "unsigned __int64",
+      "unsigned int",
+      "unsigned int",
+      "bool",
+      "__int64",
+      "__int64",
+      "__int64",
+      "class GmClProto::party_recruitment_tags_t",
+      "class GmClProto::party_recruitment_jobs_t",
+      "bool",
+      "struct GmClProto::character_info_t"
+    ]
+  },
+  {
+    "name":"party_recruitment_tags_t",
+    "arguments":[
+      "List[unsigned int]"
+    ]
+  },
+  {
+    "name":"party_recruitment_with_penalty_t",
+    "arguments":[
+      "struct GmClProto::party_recruitment_t",
+      "unsigned __int64",
+      "unsigned __int64"
+    ]
+  },
+  {
+    "name":"party_recruitments_with_penalty_t",
+    "arguments":[
+      "List[struct GmClProto::party_recruitment_with_penalty_t]"
+    ]
+  },
+  {
+    "name":"per_clan_post_list",
+    "arguments":[
+      "List[struct GmClProto::clan_post_t]"
+    ]
+  },
+  {
+    "name":"persistent_clan_skill_state_t",
+    "arguments":[
+      "unsigned int",
+      "bool"
+    ]
+  },
+  {
+    "name":"persistent_clan_skill_states_t",
+    "arguments":[
+      "List[struct GmClProto::persistent_clan_skill_state_t]"
+    ]
+  },
+  {
+    "name":"potential_power_t",
+    "arguments":[
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"potential_power_table_t",
+    "arguments":[
+      "List[struct GmClProto::potential_power_t]"
+    ]
+  },
+  {
+    "name":"protect_result",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"pvp_equipment",
+    "arguments":[
+      "unsigned int",
+      "string",
+      "int",
+      "struct GmClProto::time_t",
+      "class GmClProto::fav_items"
+    ]
+  },
+  {
+    "name":"quest_board_tabs_t",
+    "arguments":[
+      "List[class GmClProto::t_QuestBoardNumArray2D]"
+    ]
+  },
+  {
+    "name":"raid_matching_job_type_list_t",
+    "arguments":[
+      "List[class GmClProto::raid_matching_job_type_t]"
+    ]
+  },
+  {
+    "name":"raid_matching_job_type_t",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"raid_matching_kick_reason_t",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"rational_t",
+    "arguments":[
+      "__int64",
+      "__int64"
+    ]
+  },
+  {
+    "name":"reaction_type",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"receivers_t",
+    "arguments":[
+      "List[struct GmClProto::cuid_t]"
+    ]
+  },
+  {
+    "name":"reduced_unified_item_info_t",
+    "arguments":[
+      "struct GmClProto::t_UnifiedItemId",
+      "string",
+      "string",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"reduced_unified_item_infos_t",
+    "arguments":[
+      "List[struct GmClProto::reduced_unified_item_info_t]"
+    ]
+  },
+  {
+    "name":"restriction_id_t",
+    "arguments":[
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"result_reel_indexes_t",
+    "arguments":[
+      "List[unsigned char]"
+    ]
+  },
+  {
+    "name":"result_t",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"reward_ids_t",
+    "arguments":[
+      "List[unsigned int]"
+    ]
+  },
+  {
+    "name":"reward_t",
+    "arguments":[
+      "class GmClProto::e_GmClUnifiedItemType",
+      "unsigned int",
+      "unsigned int",
+      "string"
+    ]
+  },
+  {
+    "name":"reward_type_t",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"rewards_t",
+    "arguments":[
+      "List[struct GmClProto::reward_t]"
+    ]
+  },
+  {
+    "name":"s_CheckEventPointExchangeResult",
+    "arguments":[
+      "struct GmClProto::t_UnifiedItemId",
+      "class GmClProto::e_CheckEventPointExchangeResultStatus",
+      "string"
+    ]
+  },
+  {
+    "name":"s_CheckEventPointExchangeResults",
+    "arguments":[
+      "List[struct GmClProto::s_CheckEventPointExchangeResult]"
+    ]
+  },
+  {
+    "name":"s_EventPointExchangeCost",
+    "arguments":[
+      "struct GmClProto::t_UnifiedItemId",
+      "struct GmClProto::t_UnifiedItemUId",
+      "struct GmClProto::t_UnifiedItemQuantity"
+    ]
+  },
+  {
+    "name":"s_EventPointExchangeCosts",
+    "arguments":[
+      "List[struct GmClProto::s_EventPointExchangeCost]"
+    ]
+  },
+  {
+    "name":"s_EventPointExchanged",
+    "arguments":[
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "class GmClProto::t_UnifiedItemQuantities",
+      "class GmClProto::t_UnifiedItemQuantities",
+      "class GmClProto::t_UnifiedItemQuantities",
+      "class GmClProto::e_EventPointRewardResultStatus",
+      "string"
+    ]
+  },
+  {
+    "name":"s_EventPointHavePoint",
+    "arguments":[
+      "class GmClProto::t_UnifiedItemQuantities",
+      "class GmClProto::t_UnifiedItemQuantities"
+    ]
+  },
+  {
+    "name":"s_EventPointInfo",
+    "arguments":[
+      "struct GmClProto::t_UnifiedItemId",
+      "struct GmClProto::t_UnifiedItemId",
+      "class GmClProto::e_EventPointLineupTab",
+      "string",
+      "string",
+      "unsigned __int64",
+      "class GmClProto::e_CheckEventPointExchangeResultStatus",
+      "unsigned int",
+      "class GmClProto::e_GmClUnifiedItemType",
+      "unsigned int",
+      "string"
+    ]
+  },
+  {
+    "name":"s_EventPointLimit",
+    "arguments":[
+      "struct GmClProto::t_UnifiedItemId",
+      "struct GmClProto::s_PointLimit",
+      "struct GmClProto::s_PointLimit",
+      "struct GmClProto::s_PointLimit"
+    ]
+  },
+  {
+    "name":"s_EventPointLimits",
+    "arguments":[
+      "List[struct GmClProto::s_EventPointLimit]"
+    ]
+  },
+  {
+    "name":"s_EventPointReward",
+    "arguments":[
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "string",
+      "class GmClProto::e_GmClUnifiedItemType",
+      "class GmClProto::s_EventPointRewardRecipes",
+      "unsigned int",
+      "unsigned int",
+      "bool",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"s_EventPointRewardRecipe",
+    "arguments":[
+      "unsigned int",
+      "class GmClProto::t_UnifiedItemQuantities"
+    ]
+  },
+  {
+    "name":"s_EventPointRewardRecipes",
+    "arguments":[
+      "List[struct GmClProto::s_EventPointRewardRecipe]"
+    ]
+  },
+  {
+    "name":"s_PointLimit",
+    "arguments":[
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"sealed_in_type",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"selected_skill_t",
+    "arguments":[
+      "unsigned __int64",
+      "struct GmClProto::skill_location_t"
+    ]
+  },
+  {
+    "name":"selected_skills_t",
+    "arguments":[
+      "List[struct GmClProto::selected_skill_t]"
+    ]
+  },
+  {
+    "name":"sixth_sense_ability_id_t",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"sixth_sense_ability_parameter_operator_t",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"sixth_sense_ability_t",
+    "arguments":[
+      "string",
+      "unsigned int",
+      "class GmClProto::sixth_sense_ability_id_t",
+      "float",
+      "class GmClProto::sixth_sense_ability_parameter_operator_t",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"sixth_sense_ability_table_t",
+    "arguments":[
+      "List[struct GmClProto::sixth_sense_ability_t]"
+    ]
+  },
+  {
+    "name":"sixth_sense_associated_item_t",
+    "arguments":[
+      "unsigned int",
+      "unsigned int",
+      "class GmClProto::element_type",
+      "bool",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"sixth_sense_associated_items_t",
+    "arguments":[
+      "List[struct GmClProto::sixth_sense_associated_item_t]"
+    ]
+  },
+  {
+    "name":"sixth_sense_bank",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"sixth_sense_coin_t",
+    "arguments":[
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"sixth_sense_coins_t",
+    "arguments":[
+      "List[struct GmClProto::sixth_sense_coin_t]"
+    ]
+  },
+  {
+    "name":"sixth_sense_core_skill_t",
+    "arguments":[
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"sixth_sense_core_skills_t",
+    "arguments":[
+      "List[struct GmClProto::sixth_sense_core_skill_t]"
+    ]
+  },
+  {
+    "name":"sixth_sense_core_t",
+    "arguments":[
+      "unsigned int",
+      "unsigned int",
+      "struct GmClProto::t_GmBasicStatus",
+      "class GmClProto::sixth_sense_core_skills_t",
+      "float"
+    ]
+  },
+  {
+    "name":"sixth_sense_cores_t",
+    "arguments":[
+      "List[struct GmClProto::sixth_sense_core_t]"
+    ]
+  },
+  {
+    "name":"sixth_sense_group_list",
+    "arguments":[
+      "List[struct GmClProto::sixth_sense_group_t]"
+    ]
+  },
+  {
+    "name":"sixth_sense_group_t",
+    "arguments":[
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "bool",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"sixth_sense_hand_bonus_t",
+    "arguments":[
+      "unsigned int",
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"sixth_sense_hand_bonus_table",
+    "arguments":[
+      "List[struct GmClProto::sixth_sense_hand_bonus_t]"
+    ]
+  },
+  {
+    "name":"sixth_sense_ids_t",
+    "arguments":[
+      "List[unsigned int]"
+    ]
+  },
+  {
+    "name":"sixth_sense_job_ability_id_t",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"sixth_sense_job_ability_t",
+    "arguments":[
+      "class GmClProto::sixth_sense_job_ability_id_t",
+      "float",
+      "class GmClProto::sixth_sense_ability_parameter_operator_t"
+    ]
+  },
+  {
+    "name":"sixth_sense_job_ability_table_t",
+    "arguments":[
+      "List[struct GmClProto::sixth_sense_job_ability_t]"
+    ]
+  },
+  {
+    "name":"sixth_sense_job_ability_tables_t",
+    "arguments":[
+      "List[class GmClProto::sixth_sense_job_ability_table_t]"
+    ]
+  },
+  {
+    "name":"sixth_sense_level_t",
+    "arguments":[
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "struct GmClProto::time_t",
+      "struct GmClProto::time_t"
+    ]
+  },
+  {
+    "name":"sixth_sense_levels_t",
+    "arguments":[
+      "List[struct GmClProto::sixth_sense_level_t]"
+    ]
+  },
+  {
+    "name":"sixth_sense_skill_t",
+    "arguments":[
+      "struct GmClProto::t_PrefixSkillOne",
+      "unsigned int",
+      "float",
+      "unsigned int",
+      "float"
+    ]
+  },
+  {
+    "name":"sixth_sense_skills_t",
+    "arguments":[
+      "List[struct GmClProto::sixth_sense_skill_t]"
+    ]
+  },
+  {
+    "name":"sixth_sense_status_list",
+    "arguments":[
+      "List[struct GmClProto::sixth_sense_status_t]"
+    ]
+  },
+  {
+    "name":"sixth_sense_status_lists_t",
+    "arguments":[
+      "List[class GmClProto::sixth_sense_status_list]"
+    ]
+  },
+  {
+    "name":"sixth_sense_status_t",
+    "arguments":[
+      "unsigned int",
+      "int",
+      "string",
+      "string",
+      "string",
+      "int",
+      "unsigned int",
+      "class GmClProto::t_arrItemModel",
+      "unsigned int",
+      "unsigned int",
+      "int",
+      "int",
+      "class GmClProto::element_type",
+      "unsigned int",
+      "unsigned int",
+      "int",
+      "int",
+      "class GmClProto::e_GmClAvatarItemKind",
+      "struct GmClProto::t_GmBasicStatus",
+      "struct GmClProto::t_GmBasicStatus",
+      "struct GmClProto::t_PassiveStatusEnhancement",
+      "class GmClProto::sixth_sense_skills_t",
+      "class GmClProto::sixth_sense_skills_t",
+      "class GmClProto::sixth_sense_skills_t",
+      "class GmClProto::sixth_sense_skills_t",
+      "class GmClProto::sixth_sense_skills_t",
+      "bool",
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"sixth_sense_t",
+    "arguments":[
+      "unsigned int",
+      "string",
+      "unsigned int",
+      "class GmClProto::sixth_sense_associated_items_t",
+      "class GmClProto::sixth_sense_job_ability_tables_t",
+      "struct GmClProto::time_t",
+      "struct GmClProto::time_t",
+      "unsigned int",
+      "class GmClProto::sixth_sense_ability_table_t",
+      "unsigned int",
+      "bool",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"sixth_senses_t",
+    "arguments":[
+      "List[struct GmClProto::sixth_sense_t]"
+    ]
+  },
+  {
+    "name":"skill",
+    "arguments":[
+      "unsigned int",
+      "string",
+      "float"
+    ]
+  },
+  {
+    "name":"skill_class_t",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"skill_config_t",
+    "arguments":[
+      "struct GmClProto::skill_location_t",
+      "class GmClProto::skill_class_t",
+      "bool"
+    ]
+  },
+  {
+    "name":"skill_deriving_ratio",
+    "arguments":[
+      "unsigned int",
+      "float"
+    ]
+  },
+  {
+    "name":"skill_deriving_ratio_table",
+    "arguments":[
+      "List[struct GmClProto::skill_deriving_ratio]"
+    ]
+  },
+  {
+    "name":"skill_group_t",
+    "arguments":[
+      "unsigned int",
+      "unsigned int",
+      "__int64"
+    ]
+  },
+  {
+    "name":"skill_groups_t",
+    "arguments":[
+      "List[struct GmClProto::skill_group_t]"
+    ]
+  },
+  {
+    "name":"skill_ids_t",
+    "arguments":[
+      "List[unsigned int]"
+    ]
+  },
+  {
+    "name":"skill_level_t",
+    "arguments":[
+      "struct GmClProto::skill_location_t",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"skill_level_up_group_ids_t",
+    "arguments":[
+      "List[unsigned int]"
+    ]
+  },
+  {
+    "name":"skill_level_up_group_t",
+    "arguments":[
+      "unsigned int",
+      "class GmClProto::skill_slot_types_t",
+      "unsigned int",
+      "class GmClProto::item_ids"
+    ]
+  },
+  {
+    "name":"skill_level_up_groups_t",
+    "arguments":[
+      "List[struct GmClProto::skill_level_up_group_t]"
+    ]
+  },
+  {
+    "name":"skill_leveling_ratio",
+    "arguments":[
+      "unsigned int",
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"skill_leveling_ratio_list",
+    "arguments":[
+      "List[struct GmClProto::skill_leveling_ratio]"
+    ]
+  },
+  {
+    "name":"skill_levels_t",
+    "arguments":[
+      "List[struct GmClProto::skill_level_t]"
+    ]
+  },
+  {
+    "name":"skill_list",
+    "arguments":[
+      "List[struct GmClProto::skill]"
+    ]
+  },
+  {
+    "name":"skill_location_t",
+    "arguments":[
+      "class GmClProto::skill_type_t",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"skill_material_target_restriction_t",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"skill_material_target_restrictions_t",
+    "arguments":[
+      "List[class GmClProto::skill_material_target_restriction_t]"
+    ]
+  },
+  {
+    "name":"skill_slot_types_t",
+    "arguments":[
+      "List[int]"
+    ]
+  },
+  {
+    "name":"skill_t",
+    "arguments":[
+      "unsigned int",
+      "unsigned int",
+      "struct GmClProto::skill_location_t"
+    ]
+  },
+  {
+    "name":"skill_type_t",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"skills_t",
+    "arguments":[
+      "List[struct GmClProto::skill_t]"
+    ]
+  },
+  {
+    "name":"slot_gacha_reel_t",
+    "arguments":[
+      "List[unsigned char]"
+    ]
+  },
+  {
+    "name":"slot_gacha_reels_t",
+    "arguments":[
+      "List[class GmClProto::slot_gacha_reel_t]"
+    ]
+  },
+  {
+    "name":"stamp_t",
+    "arguments":[
+      "unsigned int",
+      "unsigned int",
+      "bool",
+      "unsigned int",
+      "string"
+    ]
+  },
+  {
+    "name":"stamps",
+    "arguments":[
+      "List[struct GmClProto::stamp_t]"
+    ]
+  },
+  {
+    "name":"static_item_info",
+    "arguments":[
+      "int",
+      "unsigned int",
+      "unsigned int",
+      "string",
+      "string",
+      "int",
+      "unsigned int",
+      "int",
+      "unsigned int",
+      "unsigned int",
+      "class GmClProto::element_type",
+      "unsigned int",
+      "int",
+      "unsigned int",
+      "bool",
+      "bool",
+      "int",
+      "class GmClProto::e_GmClAvatarItemKind"
+    ]
+  },
+  {
+    "name":"status_attribute_config_t",
+    "arguments":[
+      "string",
+      "__int64",
+      "struct GmClProto::rational_t",
+      "int"
+    ]
+  },
+  {
+    "name":"status_attribute_item_config_t",
+    "arguments":[
+      "struct GmClProto::t_UnifiedItemId",
+      "class GmClProto::status_attribute_item_level_dependent_configs_t"
+    ]
+  },
+  {
+    "name":"status_attribute_item_level_dependent_config_t",
+    "arguments":[
+      "unsigned int",
+      "class GmClProto::t_UnifiedItemQuantities",
+      "class GmClProto::t_UnifiedItemQuantities"
+    ]
+  },
+  {
+    "name":"status_attribute_item_level_dependent_configs_element_t",
+    "arguments":[
+      "unsigned int",
+      "struct GmClProto::status_attribute_item_level_dependent_config_t"
+    ]
+  },
+  {
+    "name":"status_attribute_item_level_dependent_configs_t",
+    "arguments":[
+      "List[struct GmClProto::status_attribute_item_level_dependent_configs_element_t]"
+    ]
+  },
+  {
+    "name":"status_attribute_t",
+    "arguments":[
+      "struct GmClProto::alt_money_config_t",
+      "__int64"
+    ]
+  },
+  {
+    "name":"status_attributes_t",
+    "arguments":[
+      "List[struct GmClProto::status_attribute_t]"
+    ]
+  },
+  {
+    "name":"t_AcceptableQuest",
+    "arguments":[
+      "struct GmClProto::t_QuestIssueUID",
+      "int",
+      "int",
+      "int",
+      "int",
+      "bool",
+      "bool",
+      "bool",
+      "int",
+      "bool",
+      "__int64"
+    ]
+  },
+  {
+    "name":"t_AcceptableQuestArray",
+    "arguments":[
+      "List[struct GmClProto::t_AcceptableQuest]"
+    ]
+  },
+  {
+    "name":"t_AccountUID",
+    "arguments":[
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_ActiveEnemyParam",
+    "arguments":[
+      "class GmClProto::e_ActiveEnemyState",
+      "class GmClProto::e_ActiveEnemyEnchant",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"t_AdditionalSkillInfo",
+    "arguments":[
+      "unsigned int",
+      "unsigned int",
+      "struct GmClProto::t_BattleSkillDetailInfo",
+      "class GmClProto::t_arrNeedBattleTokenInfo",
+      "bool",
+      "bool"
+    ]
+  },
+  {
+    "name":"t_AdvertisedApplicationRequestInfo",
+    "arguments":[
+      "unsigned int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_AdvertisedApplicationResponseInfo",
+    "arguments":[
+      "struct GmClProto::t_AdvertisedApplicationRequestInfo",
+      "int"
+    ]
+  },
+  {
+    "name":"t_AdvertisedApplicationRewardIconInfo",
+    "arguments":[
+      "int",
+      "int",
+      "struct GmClProto::t_AdvertisedApplicationRewardItemIconInfo",
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_AdvertisedApplicationRewardIconInfoArray",
+    "arguments":[
+      "List[struct GmClProto::t_AdvertisedApplicationRewardIconInfo]"
+    ]
+  },
+  {
+    "name":"t_AdvertisedApplicationRewardInfo",
+    "arguments":[
+      "int",
+      "int",
+      "class GmClProto::t_AdvertisedApplicationRewardIconInfoArray",
+      "struct GmClProto::t_AdvertisedApplicationRewardIconInfo"
+    ]
+  },
+  {
+    "name":"t_AdvertisedApplicationRewardItemIconInfo",
+    "arguments":[
+      "int",
+      "int",
+      "class GmClProto::element_type",
+      "int"
+    ]
+  },
+  {
+    "name":"t_AppealGachaInfo",
+    "arguments":[
+      "int",
+      "int",
+      "__int64"
+    ]
+  },
+  {
+    "name":"t_AppealGachaInfos",
+    "arguments":[
+      "List[struct GmClProto::t_AppealGachaInfo]"
+    ]
+  },
+  {
+    "name":"t_AreaDropItemInfo",
+    "arguments":[
+      "struct GmClProto::t_UnifiedItemId",
+      "struct GmClProto::s_PointLimit",
+      "struct GmClProto::s_PointLimit",
+      "struct GmClProto::s_PointLimit",
+      "struct GmClProto::s_PointLimit",
+      "unsigned int",
+      "bool"
+    ]
+  },
+  {
+    "name":"t_AreaUID",
+    "arguments":[
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_AttachCoreDetail",
+    "arguments":[
+      "int",
+      "string",
+      "int",
+      "int",
+      "float",
+      "float"
+    ]
+  },
+  {
+    "name":"t_AvacolleChangeFavorite",
+    "arguments":[
+      "unsigned int",
+      "bool"
+    ]
+  },
+  {
+    "name":"t_AvacolleTag",
+    "arguments":[
+      "char const *"
+    ]
+  },
+  {
+    "name":"t_AvatarItemShopAvatarItemIDArray",
+    "arguments":[
+      "List[unsigned int]"
+    ]
+  },
+  {
+    "name":"t_AvatarItemShopProduct",
+    "arguments":[
+      "unsigned int",
+      "unsigned int",
+      "class GmClProto::e_AvatarItemShopSalesType",
+      "unsigned int",
+      "unsigned int",
+      "bool",
+      "struct GmClProto::time_t",
+      "string"
+    ]
+  },
+  {
+    "name":"t_AvatarItemShopProductArray",
+    "arguments":[
+      "List[struct GmClProto::t_AvatarItemShopProduct]"
+    ]
+  },
+  {
+    "name":"t_AvatarItemShopProductIDArray",
+    "arguments":[
+      "List[unsigned int]"
+    ]
+  },
+  {
+    "name":"t_BaseAvacolle",
+    "arguments":[
+      "unsigned int",
+      "string",
+      "class GmClProto::t_arrAvacolleFilter",
+      "int",
+      "bool",
+      "bool"
+    ]
+  },
+  {
+    "name":"t_BattleAppearStatus",
+    "arguments":[
+      "class GmClProto::e_BattleAppearKind",
+      "int"
+    ]
+  },
+  {
+    "name":"t_BattleBoardPointReward",
+    "arguments":[
+      "unsigned int",
+      "string",
+      "unsigned int",
+      "bool",
+      "class GmClProto::t_UnifiedItemQuantities"
+    ]
+  },
+  {
+    "name":"t_BattleBoardTab",
+    "arguments":[
+      "unsigned int",
+      "bool"
+    ]
+  },
+  {
+    "name":"t_BattleBoostSimpleOne",
+    "arguments":[
+      "unsigned int",
+      "unsigned int",
+      "string",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"t_BattleBuffIconInfo",
+    "arguments":[
+      "struct GmClProto::t_EnchantUID",
+      "unsigned int",
+      "unsigned int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_BattleCard",
+    "arguments":[
+      "unsigned int",
+      "string",
+      "string",
+      "unsigned int",
+      "bool",
+      "unsigned int",
+      "bool",
+      "struct GmClProto::t_CharShape",
+      "int",
+      "int",
+      "float",
+      "int",
+      "int",
+      "class GmClProto::e_BattleCardKind",
+      "class GmClProto::t_UnifiedItemQuantities",
+      "bool",
+      "unsigned int",
+      "struct GmClProto::time_t",
+      "struct GmClProto::time_t",
+      "class GmClProto::e_BattleCardOpenState"
+    ]
+  },
+  {
+    "name":"t_BattleDropItemInfo",
+    "arguments":[
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "string"
+    ]
+  },
+  {
+    "name":"t_BattleDropResultInfo",
+    "arguments":[
+      "class GmClProto::t_arrBattleDropScalarInfo",
+      "class GmClProto::t_arrBattleDropItemInfo",
+      "class GmClProto::t_arrBattleDropStageInfo"
+    ]
+  },
+  {
+    "name":"t_BattleDropScalarInfo",
+    "arguments":[
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_BattleDropStageInfo",
+    "arguments":[
+      "struct GmClProto::t_UnifiedItemQuantity",
+      "unsigned int",
+      "string",
+      "unsigned int",
+      "class GmClProto::e_BattleDropStageType"
+    ]
+  },
+  {
+    "name":"t_BattleEffectEncountInfo",
+    "arguments":[
+      "int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"t_BattleEffectUpdateParam",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"t_BattleEnchantInfo",
+    "arguments":[
+      "struct GmClProto::t_EnchantUID",
+      "unsigned int",
+      "string",
+      "unsigned int",
+      "unsigned int",
+      "bool",
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"t_BattleGaugeActionInfo",
+    "arguments":[
+      "struct GmClProto::t_BattleSkillInfo",
+      "struct GmClProto::t_BattleSkillSrcInfo",
+      "int"
+    ]
+  },
+  {
+    "name":"t_BattleGaugeLuaData",
+    "arguments":[
+      "bool",
+      "float"
+    ]
+  },
+  {
+    "name":"t_BattleGaugeLuaInfo",
+    "arguments":[
+      "struct GmClProto::t_BattleGaugeLuaData",
+      "struct GmClProto::t_BattleGaugeLuaData",
+      "struct GmClProto::t_BattleGaugeLuaData",
+      "struct GmClProto::t_BattleGaugeLuaData"
+    ]
+  },
+  {
+    "name":"t_BattleGaugeProductionInfo",
+    "arguments":[
+      "class GmClProto::e_BattleGaugeProductionKind",
+      "struct GmClProto::t_SequenceTime",
+      "struct GmClProto::t_SequenceTime"
+    ]
+  },
+  {
+    "name":"t_BattleGaugeUID",
+    "arguments":[
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_BattleGroupData",
+    "arguments":[
+      "struct GmClProto::t_BattleGroupUID",
+      "int"
+    ]
+  },
+  {
+    "name":"t_BattleGroupUID",
+    "arguments":[
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_BattleInduction",
+    "arguments":[
+      "class GmClProto::t_arrBattleSkillEffectInfo",
+      "struct GmClProto::t_BattleSkillEffectInfo",
+      "bool",
+      "string"
+    ]
+  },
+  {
+    "name":"t_BattleItemAddonInfo",
+    "arguments":[
+      "struct GmClProto::alt_money_identifier_t",
+      "bool"
+    ]
+  },
+  {
+    "name":"t_BattleItemAttachCoreInfo",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"t_BattleItemGaugeInfo",
+    "arguments":[
+      "unsigned int",
+      "class GmClProto::e_BattleItemGaugeMaximumKind",
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"t_BattleItemInfo",
+    "arguments":[
+      "string",
+      "int",
+      "int",
+      "int",
+      "int",
+      "int",
+      "class GmClProto::element_type",
+      "int",
+      "unsigned int",
+      "struct GmClProto::t_BattleItemOrder",
+      "class GmClProto::t_arrBattleItemAttachCoreInfo",
+      "unsigned int",
+      "class GmClProto::t_arrBattleItemAddonInfo",
+      "class GmClProto::t_arrBattleItemGaugeInfo"
+    ]
+  },
+  {
+    "name":"t_BattleItemOrder",
+    "arguments":[
+      "unsigned int",
+      "unsigned int",
+      "bool"
+    ]
+  },
+  {
+    "name":"t_BattleMilestoneInfo",
+    "arguments":[
+      "class GmClProto::t_arrBoutGroupSymbolInfo"
+    ]
+  },
+  {
+    "name":"t_BattlePoint",
+    "arguments":[
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_BattlePosition",
+    "arguments":[
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_BattleProductionPlayInfo",
+    "arguments":[
+      "struct GmClProto::t_BoutCharUID",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"t_BattleReactionSkillInfo",
+    "arguments":[
+      "struct GmClProto::t_SkillUID",
+      "unsigned int",
+      "string",
+      "class GmClProto::e_BattleSkillTargetType",
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"t_BattleRequestHeader",
+    "arguments":[
+      "struct GmClProto::t_BattleSystemUID",
+      "struct GmClProto::t_BoutSystemUID"
+    ]
+  },
+  {
+    "name":"t_BattleResultInfo",
+    "arguments":[
+      "class GmClProto::e_BattleResultType"
+    ]
+  },
+  {
+    "name":"t_BattleResultPlayEffectInfo",
+    "arguments":[
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "unsigned __int64"
+    ]
+  },
+  {
+    "name":"t_BattleScoreInfo",
+    "arguments":[
+      "class GmClProto::e_BattleScoreType",
+      "unsigned int",
+      "__int64"
+    ]
+  },
+  {
+    "name":"t_BattleShieldInfo",
+    "arguments":[
+      "struct GmClProto::t_BattleShieldUID",
+      "__int64",
+      "__int64",
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_BattleShieldUID",
+    "arguments":[
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_BattleSkillDetailInfo",
+    "arguments":[
+      "struct GmClProto::t_BattleSkillInfo",
+      "struct GmClProto::t_BattleSkillSrcInfo",
+      "unsigned int",
+      "unsigned int",
+      "struct GmClProto::t_SequenceTime",
+      "struct GmClProto::t_SequenceTime",
+      "struct GmClProto::t_BattleSkillUsableCountInfo"
+    ]
+  },
+  {
+    "name":"t_BattleSkillEffectInfo",
+    "arguments":[
+      "class GmClProto::e_BattleSkillEffectType",
+      "__int64",
+      "unsigned int",
+      "unsigned int",
+      "class GmClProto::t_arrEffectBattleProductionID",
+      "bool",
+      "unsigned int",
+      "class GmClProto::e_BattleSkillEffectPriority"
+    ]
+  },
+  {
+    "name":"t_BattleSkillExecuteInfo",
+    "arguments":[
+      "string",
+      "struct GmClProto::t_SkillUID",
+      "unsigned int",
+      "int",
+      "int",
+      "int",
+      "int",
+      "unsigned int",
+      "struct GmClProto::t_BattleSkillUsableCountInfo"
+    ]
+  },
+  {
+    "name":"t_BattleSkillInfo",
+    "arguments":[
+      "struct GmClProto::t_SkillUID",
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"t_BattleSkillSrcInfo",
+    "arguments":[
+      "string",
+      "class GmClProto::e_BattleSkillTargetType",
+      "int",
+      "int",
+      "int",
+      "int",
+      "bool",
+      "bool",
+      "bool",
+      "int"
+    ]
+  },
+  {
+    "name":"t_BattleSkillTargetEffectInfo",
+    "arguments":[
+      "struct GmClProto::t_BoutCharUID",
+      "struct GmClProto::t_BoutCharStatus",
+      "class GmClProto::t_arrBattleSkillEffectInfo",
+      "struct GmClProto::t_BattleSkillEffectInfo",
+      "bool",
+      "class GmClProto::t_arrBattleInduction",
+      "bool"
+    ]
+  },
+  {
+    "name":"t_BattleSkillTargetEffectInfos",
+    "arguments":[
+      "class GmClProto::t_arrBattleSkillTargetEffectInfo",
+      "class GmClProto::e_BattleSkillModeType"
+    ]
+  },
+  {
+    "name":"t_BattleSkillUsableCountInfo",
+    "arguments":[
+      "int",
+      "int",
+      "int",
+      "class GmClProto::e_BattleSkillUsableCountMode"
+    ]
+  },
+  {
+    "name":"t_BattleSystemUID",
+    "arguments":[
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_BattleToken",
+    "arguments":[
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "int",
+      "bool",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"t_BattleTokenDetail",
+    "arguments":[
+      "unsigned int",
+      "string",
+      "unsigned int",
+      "unsigned int",
+      "string"
+    ]
+  },
+  {
+    "name":"t_BattleUseSkillResponseInfo",
+    "arguments":[
+      "struct GmClProto::t_BattleSkillInfo",
+      "unsigned int",
+      "unsigned int",
+      "struct GmClProto::t_SequenceTime",
+      "struct GmClProto::t_SequenceTime",
+      "struct GmClProto::t_BattleSkillUsableCountInfo"
+    ]
+  },
+  {
+    "name":"t_Black",
+    "arguments":[
+      "struct GmClProto::t_CUID",
+      "string"
+    ]
+  },
+  {
+    "name":"t_BlackList",
+    "arguments":[
+      "List[struct GmClProto::t_Black]"
+    ]
+  },
+  {
+    "name":"t_BoutCharAdditionalInfo",
+    "arguments":[
+      "int",
+      "unsigned int",
+      "int",
+      "__int64",
+      "__int64",
+      "class GmClProto::e_BattleCharKind",
+      "struct GmClProto::t_PlayerFieldNameInfo",
+      "class GmClProto::e_BoutCharBeforeEnterShowInfoKind"
+    ]
+  },
+  {
+    "name":"t_BoutCharSkillParameter",
+    "arguments":[
+      "struct GmClProto::t_SequenceTime"
+    ]
+  },
+  {
+    "name":"t_BoutCharStatus",
+    "arguments":[
+      "__int64",
+      "__int64",
+      "int",
+      "int",
+      "struct GmClProto::t_BattleShieldInfo"
+    ]
+  },
+  {
+    "name":"t_BoutCharUID",
+    "arguments":[
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_BoutEffectGenInfo",
+    "arguments":[
+      "string",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"t_BoutEventHeader",
+    "arguments":[
+      "struct GmClProto::t_BoutEventSequenceUID",
+      "struct GmClProto::t_BoutEventUID",
+      "struct GmClProto::t_BoutEventUID",
+      "struct GmClProto::t_SequenceTime"
+    ]
+  },
+  {
+    "name":"t_BoutEventSequenceUID",
+    "arguments":[
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_BoutEventUID",
+    "arguments":[
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_BoutGroupSymbolInfo",
+    "arguments":[
+      "struct GmClProto::t_CharShape",
+      "bool"
+    ]
+  },
+  {
+    "name":"t_BoutStandbyEffectInfo",
+    "arguments":[
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"t_BoutStartCountdownEffectInfo",
+    "arguments":[
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"t_BoutSystemUID",
+    "arguments":[
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_BoxCapacityRewardExchangeInfo",
+    "arguments":[
+      "struct GmClProto::t_UnifiedItemQuantity",
+      "struct GmClProto::t_UnifiedItemQuantity"
+    ]
+  },
+  {
+    "name":"t_CUID",
+    "arguments":[
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_CUIDList",
+    "arguments":[
+      "List[struct GmClProto::t_CUID]"
+    ]
+  },
+  {
+    "name":"t_CharLocation",
+    "arguments":[
+      "struct GmClProto::t_CUID",
+      "struct GmClProto::t_LatLng"
+    ]
+  },
+  {
+    "name":"t_CharLocationArray",
+    "arguments":[
+      "List[struct GmClProto::t_CharLocation]"
+    ]
+  },
+  {
+    "name":"t_CharShape",
+    "arguments":[
+      "int",
+      "string",
+      "int",
+      "float",
+      "int",
+      "int",
+      "int",
+      "int",
+      "int",
+      "int",
+      "class GmClProto::arrCharShape"
+    ]
+  },
+  {
+    "name":"t_ChatChannel",
+    "arguments":[
+      "int",
+      "struct GmClProto::destination_t",
+      "struct GmClProto::destination_t"
+    ]
+  },
+  {
+    "name":"t_ChatCommand",
+    "arguments":[
+      "string"
+    ]
+  },
+  {
+    "name":"t_ClanConfig",
+    "arguments":[
+      "string",
+      "string",
+      "int",
+      "int",
+      "bool",
+      "int",
+      "unsigned int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_ClanTotalQuestMissionPointReward",
+    "arguments":[
+      "unsigned int",
+      "unsigned int",
+      "bool",
+      "class GmClProto::t_UnifiedItemQuantities"
+    ]
+  },
+  {
+    "name":"t_Coordinate",
+    "arguments":[
+      "int",
+      "string",
+      "class GmClProto::t_arrCoordinateAvatarItemID"
+    ]
+  },
+  {
+    "name":"t_CoreSkillDetail",
+    "arguments":[
+      "string",
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"t_Ctrls",
+    "arguments":[
+      "List[class GmClProto::arrWindowCtrl]"
+    ]
+  },
+  {
+    "name":"t_EmotionAvacolle",
+    "arguments":[
+      "struct GmClProto::t_BaseAvacolle",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"t_EmotionInfo",
+    "arguments":[
+      "unsigned int",
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"t_EmotionInitInfo",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"t_EmotionUpdateInfo",
+    "arguments":[
+      "unsigned int",
+      "bool",
+      "string",
+      "unsigned int",
+      "struct GmClProto::t_EmotionInfo",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"t_EnchantIconData",
+    "arguments":[
+      "int",
+      "class GmClProto::t_arrGroupIDList",
+      "struct GmClProto::t_EnchantUID",
+      "int"
+    ]
+  },
+  {
+    "name":"t_EnchantUID",
+    "arguments":[
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"t_EquipAvacolle",
+    "arguments":[
+      "struct GmClProto::t_BaseAvacolle",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "class GmClProto::t_arrItemModel",
+      "bool",
+      "class GmClProto::t_arrAvacolleTags"
+    ]
+  },
+  {
+    "name":"t_EventFlags",
+    "arguments":[
+      "List[struct GmClProto::t_EventFlagsElement]"
+    ]
+  },
+  {
+    "name":"t_EventFlagsElement",
+    "arguments":[
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"t_EventLoginBonusInfo",
+    "arguments":[
+      "unsigned int",
+      "string",
+      "int",
+      "class GmClProto::t_arrEventLoginBonusList"
+    ]
+  },
+  {
+    "name":"t_EventLoginBonusOne",
+    "arguments":[
+      "unsigned int",
+      "int",
+      "class GmClProto::t_arrLoginBonusContents"
+    ]
+  },
+  {
+    "name":"t_EventPointAccumulationRewardElement",
+    "arguments":[
+      "unsigned int",
+      "struct GmClProto::t_UnifiedItemQuantity",
+      "string"
+    ]
+  },
+  {
+    "name":"t_EventPointAccumulationRewardGroup",
+    "arguments":[
+      "class GmClProto::t_arrEventPointAccumulationRewardElement",
+      "string",
+      "unsigned int",
+      "bool"
+    ]
+  },
+  {
+    "name":"t_EverydayBonusInfo",
+    "arguments":[
+      "class GmClProto::t_arrLoginBonusContents"
+    ]
+  },
+  {
+    "name":"t_ExchangeItemGroup",
+    "arguments":[
+      "struct GmClProto::t_UnifiedItemId",
+      "class GmClProto::t_ExchangeItemSeriesList"
+    ]
+  },
+  {
+    "name":"t_ExchangeItemGroupCost",
+    "arguments":[
+      "struct GmClProto::t_UnifiedItemId",
+      "struct GmClProto::t_UnifiedItemUId",
+      "struct GmClProto::t_UnifiedItemQuantity"
+    ]
+  },
+  {
+    "name":"t_ExchangeItemGroupCosts",
+    "arguments":[
+      "List[struct GmClProto::t_ExchangeItemGroupCost]"
+    ]
+  },
+  {
+    "name":"t_ExchangeItemGroups",
+    "arguments":[
+      "List[struct GmClProto::t_ExchangeItemGroup]"
+    ]
+  },
+  {
+    "name":"t_ExchangeItemMaterial",
+    "arguments":[
+      "struct GmClProto::t_UnifiedItemQuantity",
+      "unsigned int",
+      "unsigned int",
+      "class GmClProto::skill_levels_t"
+    ]
+  },
+  {
+    "name":"t_ExchangeItemMaterials",
+    "arguments":[
+      "List[struct GmClProto::t_ExchangeItemMaterial]"
+    ]
+  },
+  {
+    "name":"t_ExchangeItemSeries",
+    "arguments":[
+      "struct GmClProto::t_UnifiedItemQuantity",
+      "class GmClProto::t_ExchangeItemMaterials"
+    ]
+  },
+  {
+    "name":"t_ExchangeItemSeriesList",
+    "arguments":[
+      "List[struct GmClProto::t_ExchangeItemSeries]"
+    ]
+  },
+  {
+    "name":"t_FashionShowEntryInfo",
+    "arguments":[
+      "string",
+      "unsigned int",
+      "bool",
+      "struct GmClProto::t_Coordinate",
+      "struct GmClProto::t_CharShape",
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"t_FashionShowReward",
+    "arguments":[
+      "struct GmClProto::t_UnifiedItemQuantity",
+      "string",
+      "class GmClProto::e_FashionShowRewardKind",
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"t_FashionShowScheduleInfo",
+    "arguments":[
+      "bool",
+      "bool",
+      "bool",
+      "struct GmClProto::time_t",
+      "struct GmClProto::time_t",
+      "struct GmClProto::time_t",
+      "struct GmClProto::time_t",
+      "struct GmClProto::time_t"
+    ]
+  },
+  {
+    "name":"t_FieldGimmickBattleToken",
+    "arguments":[
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "string"
+    ]
+  },
+  {
+    "name":"t_FieldUID",
+    "arguments":[
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_GachaItemInfo",
+    "arguments":[
+      "int",
+      "int",
+      "int",
+      "class GmClProto::element_type",
+      "int",
+      "int",
+      "string",
+      "unsigned int",
+      "unsigned int",
+      "struct GmClProto::t_GmBasicStatus",
+      "struct GmClProto::t_PassiveStatusEnhancement",
+      "class GmClProto::t_arrPrefixSkill",
+      "class GmClProto::gacha_result_type_t",
+      "bool",
+      "bool",
+      "bool",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"t_GachaList",
+    "arguments":[
+      "int",
+      "int",
+      "int",
+      "string",
+      "string",
+      "string",
+      "string",
+      "int",
+      "int",
+      "int",
+      "unsigned int",
+      "unsigned int",
+      "int",
+      "int",
+      "int",
+      "int",
+      "int",
+      "class GmClProto::t_arrGachaItemInfo",
+      "bool",
+      "string",
+      "string",
+      "bool",
+      "string",
+      "bool",
+      "class GmClProto::box_gacha_icons_t",
+      "unsigned int",
+      "unsigned int",
+      "string",
+      "bool",
+      "int",
+      "bool",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "bool",
+      "bool",
+      "bool",
+      "class GmClProto::t_UnifiedItemQuantities",
+      "bool",
+      "bool",
+      "unsigned __int64",
+      "bool"
+    ]
+  },
+  {
+    "name":"t_GemShopCategory",
+    "arguments":[
+      "unsigned int",
+      "class GmClProto::t_GemShopProductArray",
+      "string",
+      "unsigned int",
+      "string"
+    ]
+  },
+  {
+    "name":"t_GemShopCategoryArray",
+    "arguments":[
+      "List[struct GmClProto::t_GemShopCategory]"
+    ]
+  },
+  {
+    "name":"t_GemShopProduct",
+    "arguments":[
+      "unsigned int",
+      "string",
+      "unsigned int",
+      "string",
+      "string",
+      "class GmClProto::t_UnifiedItemQuantitiesWithAttributes",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "string",
+      "unsigned int",
+      "unsigned int",
+      "int",
+      "struct GmClProto::time_t",
+      "struct GmClProto::time_t",
+      "bool",
+      "bool"
+    ]
+  },
+  {
+    "name":"t_GemShopProductArray",
+    "arguments":[
+      "List[struct GmClProto::t_GemShopProduct]"
+    ]
+  },
+  {
+    "name":"t_GiftAcceptInfo",
+    "arguments":[
+      "struct GmClProto::t_GiftUID",
+      "class GmClProto::e_GmClGiftReceiveKind"
+    ]
+  },
+  {
+    "name":"t_GiftHistoryInfo",
+    "arguments":[
+      "struct GmClProto::t_GiftUID",
+      "string",
+      "string",
+      "class GmClProto::e_GmClGiftHistoryDeleteKind",
+      "int",
+      "struct GmClProto::t_UnifiedItemQuantity",
+      "struct GmClProto::unified_item_attributes_t"
+    ]
+  },
+  {
+    "name":"t_GiftHistoryPageInfo",
+    "arguments":[
+      "class GmClProto::t_arrGiftHistoryInfoList",
+      "int",
+      "int",
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_GiftInfo",
+    "arguments":[
+      "struct GmClProto::t_GiftUID",
+      "string",
+      "string",
+      "unsigned int",
+      "class GmClProto::e_GmClGiftReceiveKind",
+      "int",
+      "struct GmClProto::t_UnifiedItemQuantity",
+      "struct GmClProto::unified_item_attributes_t",
+      "bool"
+    ]
+  },
+  {
+    "name":"t_GiftPageInfo",
+    "arguments":[
+      "class GmClProto::t_arrGiftInfoList",
+      "int",
+      "int",
+      "int",
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_GiftUID",
+    "arguments":[
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_GmBasicStatus",
+    "arguments":[
+      "__int64",
+      "__int64",
+      "__int64",
+      "__int64",
+      "__int64",
+      "__int64",
+      "__int64",
+      "__int64",
+      "__int64",
+      "__int64",
+      "__int64",
+      "__int64",
+      "__int64",
+      "__int64",
+      "__int64",
+      "__int64",
+      "__int64",
+      "__int64",
+      "__int64",
+      "__int64",
+      "__int64"
+    ]
+  },
+  {
+    "name":"t_GmBasicStatusRatio",
+    "arguments":[
+      "float",
+      "float",
+      "float",
+      "float",
+      "float",
+      "float",
+      "float",
+      "float",
+      "float",
+      "float",
+      "float",
+      "float",
+      "float",
+      "float",
+      "float",
+      "float",
+      "float",
+      "float",
+      "float",
+      "float",
+      "float"
+    ]
+  },
+  {
+    "name":"t_GmChatChUID",
+    "arguments":[
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_GmClAvatarCoordinateOne",
+    "arguments":[
+      "unsigned int",
+      "string",
+      "unsigned int",
+      "int",
+      "struct GmClProto::t_GmClAvatarLayer"
+    ]
+  },
+  {
+    "name":"t_GmClAvatarItemOne",
+    "arguments":[
+      "unsigned int",
+      "string",
+      "string",
+      "string",
+      "class GmClProto::e_GmClAvatarLayerGroup",
+      "int",
+      "string",
+      "class GmClProto::t_arrItemShape",
+      "bool",
+      "int",
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"t_GmClAvatarItemRegistInfoOne",
+    "arguments":[
+      "struct GmClProto::t_ItemUID"
+    ]
+  },
+  {
+    "name":"t_GmClAvatarItemRegistInfoResult",
+    "arguments":[
+      "struct GmClProto::t_ItemUID",
+      "string"
+    ]
+  },
+  {
+    "name":"t_GmClAvatarItemRegistOne",
+    "arguments":[
+      "struct GmClProto::t_ItemUID",
+      "int"
+    ]
+  },
+  {
+    "name":"t_GmClAvatarItemRegistResult",
+    "arguments":[
+      "struct GmClProto::t_ItemUID",
+      "int"
+    ]
+  },
+  {
+    "name":"t_GmClAvatarLayer",
+    "arguments":[
+      "struct GmClProto::t_CharShape",
+      "int",
+      "int",
+      "class GmClProto::t_arrGmClAvatarPieceOne"
+    ]
+  },
+  {
+    "name":"t_GmClAvatarPieceOne",
+    "arguments":[
+      "unsigned int",
+      "string",
+      "class GmClProto::e_GmClAvatarLayerGroup",
+      "int",
+      "string"
+    ]
+  },
+  {
+    "name":"t_GmClFormAvatarItemOne",
+    "arguments":[
+      "unsigned int",
+      "string",
+      "class GmClProto::e_GmClFormAvatarType",
+      "int",
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_GmClMercenaryActivityInfo",
+    "arguments":[
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_GmClRecommendEquipStatus",
+    "arguments":[
+      "int",
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_GmCoreInfo",
+    "arguments":[
+      "struct GmClProto::t_GmBasicStatus",
+      "struct GmClProto::t_PassiveStatusEnhancement",
+      "class GmClProto::t_arrCoreSkillDetail",
+      "float"
+    ]
+  },
+  {
+    "name":"t_GmDepositBonusRow",
+    "arguments":[
+      "int",
+      "int",
+      "string"
+    ]
+  },
+  {
+    "name":"t_GmDepositBonusRows",
+    "arguments":[
+      "List[struct GmClProto::t_GmDepositBonusRow]"
+    ]
+  },
+  {
+    "name":"t_GmFloatRGB",
+    "arguments":[
+      "float",
+      "float",
+      "float"
+    ]
+  },
+  {
+    "name":"t_GmIntRGB",
+    "arguments":[
+      "int",
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_GmPartyMemberInfo",
+    "arguments":[
+      "struct GmClProto::t_CUID"
+    ]
+  },
+  {
+    "name":"t_GmPartySyncInfo",
+    "arguments":[
+      "struct GmClProto::t_GmPartyUID",
+      "struct GmClProto::t_CUID",
+      "unsigned int",
+      "unsigned int",
+      "class GmClProto::t_arrGmPartyMemberInfo",
+      "bool",
+      "unsigned __int64",
+      "unsigned __int64"
+    ]
+  },
+  {
+    "name":"t_GmPartyUID",
+    "arguments":[
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_GmRaidRoomMemberInfo",
+    "arguments":[
+      "struct GmClProto::t_CUID",
+      "struct GmClProto::t_CharShape",
+      "int",
+      "string",
+      "unsigned int",
+      "unsigned int",
+      "int",
+      "bool",
+      "bool",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"t_GmRaidRoomSyncInfo",
+    "arguments":[
+      "unsigned __int64",
+      "class GmClProto::t_arrGmRaidRoomMemberInfo"
+    ]
+  },
+  {
+    "name":"t_GmSellItemInfo",
+    "arguments":[
+      "struct GmClProto::t_ItemUID",
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_GmSellItemInfoArray",
+    "arguments":[
+      "List[struct GmClProto::t_GmSellItemInfo]"
+    ]
+  },
+  {
+    "name":"t_GridCoord",
+    "arguments":[
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_IconInfo",
+    "arguments":[
+      "string",
+      "string"
+    ]
+  },
+  {
+    "name":"t_IconInfoArray",
+    "arguments":[
+      "List[struct GmClProto::t_IconInfo]"
+    ]
+  },
+  {
+    "name":"t_InAppPurchaseProduct",
+    "arguments":[
+      "unsigned __int64",
+      "class GmClProto::e_InAppPurchaseProductType",
+      "unsigned int",
+      "string",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"t_InAppPurchaseProductArray",
+    "arguments":[
+      "List[struct GmClProto::t_InAppPurchaseProduct]"
+    ]
+  },
+  {
+    "name":"t_InteriorAvacolle",
+    "arguments":[
+      "struct GmClProto::t_BaseAvacolle",
+      "string",
+      "int"
+    ]
+  },
+  {
+    "name":"t_ItemBoxInfoOne",
+    "arguments":[
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"t_ItemDetail",
+    "arguments":[
+      "struct GmClProto::t_ItemUID",
+      "int",
+      "int",
+      "string",
+      "string",
+      "int",
+      "int",
+      "bool",
+      "bool",
+      "bool",
+      "bool",
+      "int",
+      "int",
+      "int",
+      "int",
+      "int",
+      "unsigned int",
+      "int",
+      "bool",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"t_ItemEnchantIconData",
+    "arguments":[
+      "struct GmClProto::t_ItemUID",
+      "class GmClProto::t_arrEnchantIconList"
+    ]
+  },
+  {
+    "name":"t_ItemInfoOne",
+    "arguments":[
+      "struct GmClProto::t_ItemUID",
+      "unsigned int",
+      "int",
+      "unsigned int",
+      "unsigned int",
+      "string",
+      "string",
+      "string",
+      "int",
+      "unsigned int",
+      "class GmClProto::t_arrItemModel",
+      "unsigned int",
+      "unsigned int",
+      "int",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "bool",
+      "int",
+      "class GmClProto::element_type",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "int",
+      "unsigned int",
+      "int",
+      "bool",
+      "bool",
+      "unsigned int",
+      "bool",
+      "int",
+      "class GmClProto::e_GmClAvatarItemKind",
+      "struct GmClProto::t_GmBasicStatus",
+      "struct GmClProto::t_GmBasicStatus",
+      "struct GmClProto::t_PassiveStatusEnhancement",
+      "class GmClProto::t_PassiveStatusEnhancements",
+      "class GmClProto::t_arrPrefixSkill",
+      "class GmClProto::t_arrPrefixSkill",
+      "class GmClProto::t_arrPrefixSkill",
+      "class GmClProto::t_arrPrefixSkill",
+      "class GmClProto::t_arrPrefixSkill",
+      "class GmClProto::t_arrPrefixSkill",
+      "class GmClProto::t_arrPrefixSkill",
+      "struct GmClProto::t_GmCoreInfo",
+      "class GmClProto::t_arrAttachCoreDetail",
+      "struct GmClProto::t_GmBasicStatusRatio",
+      "bool",
+      "unsigned int",
+      "unsigned int",
+      "class GmClProto::potential_power_table_t",
+      "class GmClProto::fusion_target_category_restrictions_t",
+      "unsigned int",
+      "class GmClProto::skill_material_target_restrictions_t",
+      "unsigned int",
+      "float",
+      "unsigned int",
+      "class GmClProto::item_specific_antibuff_list_t",
+      "class GmClProto::sixth_sense_coins_t",
+      "bool",
+      "unsigned int",
+      "bool",
+      "bool",
+      "struct GmClProto::evolution_morphism_t",
+      "bool",
+      "bool",
+      "bool",
+      "bool",
+      "bool",
+      "int",
+      "int",
+      "class GmClProto::alt_money_list",
+      "unsigned __int64",
+      "unsigned __int64",
+      "class GmClProto::t_UnifiedItemQuantities",
+      "class GmClProto::t_UnifiedItemQuantities",
+      "unsigned __int64",
+      "string",
+      "string",
+      "class GmClProto::evolve_restriction_series_names_t",
+      "class GmClProto::limited_evolve_material_ids_t",
+      "class GmClProto::item_socket_states_t",
+      "bool",
+      "unsigned int",
+      "int",
+      "class GmClProto::item_status_diffs_t",
+      "unsigned int",
+      "bool",
+      "class GmClProto::item_ids",
+      "class GmClProto::skill_level_up_group_ids_t",
+      "class GmClProto::god_t"
+    ]
+  },
+  {
+    "name":"t_ItemModel",
+    "arguments":[
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_ItemUID",
+    "arguments":[
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_JobAbilityItemStatusEnhancement",
+    "arguments":[
+      "int",
+      "struct GmClProto::t_JobAbilityStatusEnhancement"
+    ]
+  },
+  {
+    "name":"t_JobAbilityPvPCostChangeValue",
+    "arguments":[
+      "int",
+      "class GmClProto::t_UnifiedItemQuantities"
+    ]
+  },
+  {
+    "name":"t_JobAbilityPvPCostChangeValues",
+    "arguments":[
+      "List[struct GmClProto::t_JobAbilityPvPCostChangeValue]"
+    ]
+  },
+  {
+    "name":"t_JobAbilityStatusEnhancement",
+    "arguments":[
+      "struct GmClProto::t_GmBasicStatus",
+      "struct GmClProto::t_GmBasicStatusRatio"
+    ]
+  },
+  {
+    "name":"t_JobChangeInfo",
+    "arguments":[
+      "int",
+      "unsigned int",
+      "string",
+      "int",
+      "int",
+      "int",
+      "int",
+      "int",
+      "int",
+      "int",
+      "int",
+      "int",
+      "int",
+      "bool",
+      "struct GmClProto::t_GmBasicStatus",
+      "class GmClProto::t_arrJobWearableEquipmentInfo",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"t_JobWearableEquipmentCategory",
+    "arguments":[
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"t_JobWearableEquipmentInfo",
+    "arguments":[
+      "class GmClProto::t_JobWearableState",
+      "class GmClProto::t_arrJobWearableEquipmentCategory"
+    ]
+  },
+  {
+    "name":"t_JobWearableState",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"t_LatLng",
+    "arguments":[
+      "float",
+      "float"
+    ]
+  },
+  {
+    "name":"t_LocationBonus",
+    "arguments":[
+      "class GmClProto::e_GmClLocationBonusKind",
+      "class GmClProto::t_LocationBonusRateArray"
+    ]
+  },
+  {
+    "name":"t_LocationBonusRate",
+    "arguments":[
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_LocationBonusRateArray",
+    "arguments":[
+      "List[struct GmClProto::t_LocationBonusRate]"
+    ]
+  },
+  {
+    "name":"t_LoginBonusContent",
+    "arguments":[
+      "char const *"
+    ]
+  },
+  {
+    "name":"t_LoginDaysBonusInfo",
+    "arguments":[
+      "unsigned int",
+      "int",
+      "class GmClProto::t_arrLoginBonusContents"
+    ]
+  },
+  {
+    "name":"t_LogresGaugeInfo",
+    "arguments":[
+      "int",
+      "int",
+      "int",
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_MapPos",
+    "arguments":[
+      "float",
+      "float"
+    ]
+  },
+  {
+    "name":"t_MasterLevelCapReleaseMaterial",
+    "arguments":[
+      "unsigned int",
+      "class GmClProto::t_MasterLevelCapReleaseMaterialByLevels"
+    ]
+  },
+  {
+    "name":"t_MasterLevelCapReleaseMaterialByLevel",
+    "arguments":[
+      "unsigned int",
+      "class GmClProto::t_UnifiedItemQuantities"
+    ]
+  },
+  {
+    "name":"t_MasterLevelCapReleaseMaterialByLevels",
+    "arguments":[
+      "List[struct GmClProto::t_MasterLevelCapReleaseMaterialByLevel]"
+    ]
+  },
+  {
+    "name":"t_MasterLevelCapReleaseMaterials",
+    "arguments":[
+      "List[struct GmClProto::t_MasterLevelCapReleaseMaterial]"
+    ]
+  },
+  {
+    "name":"t_MegamikujiResult",
+    "arguments":[
+      "unsigned int",
+      "unsigned int",
+      "class GmClProto::t_UnifiedItemQuantities"
+    ]
+  },
+  {
+    "name":"t_MegamikujiResults",
+    "arguments":[
+      "List[struct GmClProto::t_MegamikujiResult]"
+    ]
+  },
+  {
+    "name":"t_Millisecond",
+    "arguments":[
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"t_ModelAvacolle",
+    "arguments":[
+      "struct GmClProto::t_BaseAvacolle",
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"t_ModelVolume",
+    "arguments":[
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"t_NeedBattleTokenInfo",
+    "arguments":[
+      "unsigned int",
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"t_NormalSkillInfo",
+    "arguments":[
+      "struct GmClProto::t_BattleSkillDetailInfo",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "bool",
+      "int"
+    ]
+  },
+  {
+    "name":"t_NpcCanTalkRange",
+    "arguments":[
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_ObjectParamOne",
+    "arguments":[
+      "unsigned int",
+      "unsigned __int64",
+      "unsigned __int64",
+      "int",
+      "int",
+      "int",
+      "int",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "int",
+      "unsigned int",
+      "struct GmClProto::t_GmBasicStatus",
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_OptionUID",
+    "arguments":[
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_PassiveStatusEnhancement",
+    "arguments":[
+      "struct GmClProto::t_GmBasicStatus",
+      "struct GmClProto::t_GmBasicStatusRatio",
+      "struct GmClProto::t_GmBasicStatus"
+    ]
+  },
+  {
+    "name":"t_PassiveStatusEnhancements",
+    "arguments":[
+      "List[struct GmClProto::t_PassiveStatusEnhancement]"
+    ]
+  },
+  {
+    "name":"t_PlaySkillStatusEffectEventInfo",
+    "arguments":[
+      "struct GmClProto::t_SkillUID",
+      "class GmClProto::t_arrPlaySkillStatusEffectInfo"
+    ]
+  },
+  {
+    "name":"t_PlaySkillStatusEffectInfo",
+    "arguments":[
+      "unsigned int",
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"t_PlayerFieldNameInfo",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"t_PopUpIncludeUrl",
+    "arguments":[
+      "string",
+      "string",
+      "string",
+      "string",
+      "bool",
+      "string"
+    ]
+  },
+  {
+    "name":"t_PopUpInfo",
+    "arguments":[
+      "string"
+    ]
+  },
+  {
+    "name":"t_PrefixSkillOne",
+    "arguments":[
+      "string",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "int",
+      "int",
+      "int",
+      "bool",
+      "int",
+      "bool",
+      "struct GmClProto::skill_location_t",
+      "class GmClProto::skill_class_t",
+      "bool",
+      "bool"
+    ]
+  },
+  {
+    "name":"t_PushNotificationOption",
+    "arguments":[
+      "class GmClProto::e_PushNotificationOption",
+      "bool"
+    ]
+  },
+  {
+    "name":"t_PushNotificationOptionArray",
+    "arguments":[
+      "List[struct GmClProto::t_PushNotificationOption]"
+    ]
+  },
+  {
+    "name":"t_PvPBattleResult",
+    "arguments":[
+      "int",
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_PvPTeamInfo",
+    "arguments":[
+      "struct GmClProto::t_PvPTeamUID",
+      "int"
+    ]
+  },
+  {
+    "name":"t_PvPTeamUID",
+    "arguments":[
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_QuestAcceptRequestParam",
+    "arguments":[
+      "int",
+      "struct GmClProto::t_QuestIssueUID",
+      "struct GmClProto::t_FieldUID",
+      "int",
+      "int",
+      "int",
+      "struct GmClProto::t_CUID",
+      "class GmClProto::e_CommunityRelationKind",
+      "int",
+      "int",
+      "class GmClProto::t_SelectMercenaryInfoArray",
+      "class GmClProto::t_CUIDList",
+      "bool",
+      "bool"
+    ]
+  },
+  {
+    "name":"t_QuestBoardNumArray2D",
+    "arguments":[
+      "List[class GmClProto::t_QuestBoardNumArray]"
+    ]
+  },
+  {
+    "name":"t_QuestBoardNumArray",
+    "arguments":[
+      "List[int]"
+    ]
+  },
+  {
+    "name":"t_QuestCategoryIDArray",
+    "arguments":[
+      "List[int]"
+    ]
+  },
+  {
+    "name":"t_QuestCategoryRewardSrc",
+    "arguments":[
+      "int",
+      "class GmClProto::t_QuestRewardSrcBaseArray"
+    ]
+  },
+  {
+    "name":"t_QuestCategoryRewardSrcArray",
+    "arguments":[
+      "List[struct GmClProto::t_QuestCategoryRewardSrc]"
+    ]
+  },
+  {
+    "name":"t_QuestCategorySrcData",
+    "arguments":[
+      "int",
+      "string",
+      "string",
+      "string",
+      "int",
+      "int",
+      "bool",
+      "int",
+      "int",
+      "class GmClProto::t_QuestBoardNumArray",
+      "string",
+      "class GmClProto::t_UnifiedItemIds",
+      "int",
+      "int",
+      "string",
+      "string",
+      "bool",
+      "bool",
+      "int"
+    ]
+  },
+  {
+    "name":"t_QuestCategorySrcDataArray",
+    "arguments":[
+      "List[struct GmClProto::t_QuestCategorySrcData]"
+    ]
+  },
+  {
+    "name":"t_QuestConditionMinMax",
+    "arguments":[
+      "int",
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_QuestConditionMinMaxArray",
+    "arguments":[
+      "List[struct GmClProto::t_QuestConditionMinMax]"
+    ]
+  },
+  {
+    "name":"t_QuestEnchantSrcData",
+    "arguments":[
+      "int",
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_QuestEnchantSrcDataArray",
+    "arguments":[
+      "List[struct GmClProto::t_QuestEnchantSrcData]"
+    ]
+  },
+  {
+    "name":"t_QuestHistory",
+    "arguments":[
+      "int",
+      "int",
+      "int",
+      "int",
+      "int",
+      "unsigned __int64",
+      "unsigned __int64",
+      "unsigned __int64"
+    ]
+  },
+  {
+    "name":"t_QuestHistoryArray",
+    "arguments":[
+      "List[struct GmClProto::t_QuestHistory]"
+    ]
+  },
+  {
+    "name":"t_QuestIDArray",
+    "arguments":[
+      "List[int]"
+    ]
+  },
+  {
+    "name":"t_QuestIssueUID",
+    "arguments":[
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_QuestMarker",
+    "arguments":[
+      "int",
+      "int",
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_QuestMarkerArray",
+    "arguments":[
+      "List[struct GmClProto::t_QuestMarker]"
+    ]
+  },
+  {
+    "name":"t_QuestReward",
+    "arguments":[
+      "class GmClProto::t_QuestRewardRecordArray"
+    ]
+  },
+  {
+    "name":"t_QuestRewardItem",
+    "arguments":[
+      "int",
+      "int",
+      "int",
+      "struct GmClProto::t_ItemUID",
+      "int",
+      "int",
+      "int",
+      "class GmClProto::element_type",
+      "int",
+      "int",
+      "int",
+      "class GmClProto::alt_money_attributes_t",
+      "bool",
+      "int",
+      "int",
+      "struct GmClProto::unified_item_attributes_t",
+      "unsigned __int64"
+    ]
+  },
+  {
+    "name":"t_QuestRewardRecord",
+    "arguments":[
+      "int",
+      "int",
+      "struct GmClProto::t_QuestRewardItem"
+    ]
+  },
+  {
+    "name":"t_QuestRewardRecordArray",
+    "arguments":[
+      "List[struct GmClProto::t_QuestRewardRecord]"
+    ]
+  },
+  {
+    "name":"t_QuestRewardSrc",
+    "arguments":[
+      "int",
+      "bool",
+      "struct GmClProto::t_QuestRewardSrcRule",
+      "class GmClProto::t_QuestRewardSrcBaseArray"
+    ]
+  },
+  {
+    "name":"t_QuestRewardSrcArray",
+    "arguments":[
+      "List[struct GmClProto::t_QuestRewardSrc]"
+    ]
+  },
+  {
+    "name":"t_QuestRewardSrcBase",
+    "arguments":[
+      "int",
+      "int",
+      "struct GmClProto::t_QuestRewardSrcItemInfo"
+    ]
+  },
+  {
+    "name":"t_QuestRewardSrcBaseArray",
+    "arguments":[
+      "List[struct GmClProto::t_QuestRewardSrcBase]"
+    ]
+  },
+  {
+    "name":"t_QuestRewardSrcData",
+    "arguments":[
+      "class GmClProto::t_QuestRewardSrcArray"
+    ]
+  },
+  {
+    "name":"t_QuestRewardSrcItemInfo",
+    "arguments":[
+      "int",
+      "int",
+      "int",
+      "int",
+      "class GmClProto::element_type",
+      "int",
+      "class GmClProto::alt_money_attributes_t",
+      "bool",
+      "int",
+      "int",
+      "struct GmClProto::unified_item_attributes_t"
+    ]
+  },
+  {
+    "name":"t_QuestRewardSrcRule",
+    "arguments":[
+      "int",
+      "class GmClProto::t_QuestRewardSrcRuleValue"
+    ]
+  },
+  {
+    "name":"t_QuestRewardSrcRuleValue",
+    "arguments":[
+      "List[int]"
+    ]
+  },
+  {
+    "name":"t_QuestSrcData",
+    "arguments":[
+      "int",
+      "string",
+      "int",
+      "int",
+      "int",
+      "int",
+      "int",
+      "unsigned int",
+      "int",
+      "string",
+      "class GmClProto::t_QuestStringArray",
+      "class GmClProto::t_QuestStringArray",
+      "class GmClProto::t_QuestStringArray",
+      "class GmClProto::t_QuestStringArray",
+      "class GmClProto::t_QuestRewardSrcBaseArray",
+      "struct GmClProto::t_QuestRewardSrcData",
+      "struct GmClProto::t_QuestRewardSrcData",
+      "string",
+      "bool",
+      "bool",
+      "unsigned int",
+      "string",
+      "string",
+      "string",
+      "int",
+      "int",
+      "class GmClProto::t_QuestConditionMinMaxArray",
+      "int",
+      "int",
+      "unsigned int",
+      "class GmClProto::t_QuestSrcSpecialRuleValue",
+      "class GmClProto::t_QuestStringArray",
+      "bool",
+      "unsigned int",
+      "unsigned int",
+      "string",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "class GmClProto::t_arrQuestSubMission",
+      "struct GmClProto::t_QuestRewardSrcData",
+      "struct GmClProto::t_UnifiedItemQuantity",
+      "unsigned int",
+      "int",
+      "int",
+      "string",
+      "bool",
+      "bool"
+    ]
+  },
+  {
+    "name":"t_QuestSrcDataArray",
+    "arguments":[
+      "List[struct GmClProto::t_QuestSrcData]"
+    ]
+  },
+  {
+    "name":"t_QuestSrcSpecialRuleValue",
+    "arguments":[
+      "List[int]"
+    ]
+  },
+  {
+    "name":"t_QuestString",
+    "arguments":[
+      "string"
+    ]
+  },
+  {
+    "name":"t_QuestStringArray",
+    "arguments":[
+      "List[struct GmClProto::t_QuestString]"
+    ]
+  },
+  {
+    "name":"t_QuestSubMission",
+    "arguments":[
+      "unsigned int",
+      "string",
+      "unsigned int",
+      "unsigned int",
+      "class GmClProto::e_QuestSubMissionProgressType"
+    ]
+  },
+  {
+    "name":"t_QuestSubMissionWithProgress",
+    "arguments":[
+      "struct GmClProto::t_QuestSubMission",
+      "string",
+      "class GmClProto::t_arrQuestSubMissionAchieverCUID",
+      "bool"
+    ]
+  },
+  {
+    "name":"t_QuestTargetSymbolArray",
+    "arguments":[
+      "List[int]"
+    ]
+  },
+  {
+    "name":"t_QuestTreasureParam",
+    "arguments":[
+      "string",
+      "int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"t_QuestTreasureSrcBase",
+    "arguments":[
+      "int",
+      "int",
+      "class GmClProto::e_QuestTreasureKind",
+      "struct GmClProto::t_QuestRewardSrcItemInfo"
+    ]
+  },
+  {
+    "name":"t_QuestTreasureSrcBaseArray",
+    "arguments":[
+      "List[struct GmClProto::t_QuestTreasureSrcBase]"
+    ]
+  },
+  {
+    "name":"t_QuestTrophyBaseItem",
+    "arguments":[
+      "int",
+      "int",
+      "string",
+      "int",
+      "unsigned int",
+      "int",
+      "int",
+      "int",
+      "bool"
+    ]
+  },
+  {
+    "name":"t_QuestTrophyBaseItemArray",
+    "arguments":[
+      "List[struct GmClProto::t_QuestTrophyBaseItem]"
+    ]
+  },
+  {
+    "name":"t_QuestTrophyOpenData",
+    "arguments":[
+      "struct GmClProto::t_QuestTrophyBaseItem",
+      "class GmClProto::t_QuestTrophyOpenItemArray"
+    ]
+  },
+  {
+    "name":"t_QuestTrophyOpenDataArray",
+    "arguments":[
+      "List[struct GmClProto::t_QuestTrophyOpenData]"
+    ]
+  },
+  {
+    "name":"t_QuestTrophyOpenItem",
+    "arguments":[
+      "int",
+      "int",
+      "int",
+      "int",
+      "struct GmClProto::t_ItemUID",
+      "int",
+      "int",
+      "int",
+      "class GmClProto::alt_money_attributes_t",
+      "bool",
+      "unsigned __int64"
+    ]
+  },
+  {
+    "name":"t_QuestTrophyOpenItemArray",
+    "arguments":[
+      "List[struct GmClProto::t_QuestTrophyOpenItem]"
+    ]
+  },
+  {
+    "name":"t_QuestUID",
+    "arguments":[
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_RaidInformationString",
+    "arguments":[
+      "char const *"
+    ]
+  },
+  {
+    "name":"t_RaidRewardSrc",
+    "arguments":[
+      "class GmClProto::t_UnifiedItemQuantities",
+      "class GmClProto::t_UnifiedItemQuantities",
+      "class GmClProto::t_RaidScoreRewards",
+      "class GmClProto::t_UnifiedItemQuantities"
+    ]
+  },
+  {
+    "name":"t_RaidScoreReward",
+    "arguments":[
+      "int",
+      "class GmClProto::t_UnifiedItemQuantities",
+      "class GmClProto::t_UnifiedItemQuantities"
+    ]
+  },
+  {
+    "name":"t_RaidScoreRewards",
+    "arguments":[
+      "List[struct GmClProto::t_RaidScoreReward]"
+    ]
+  },
+  {
+    "name":"t_RaidSrc",
+    "arguments":[
+      "unsigned int",
+      "string",
+      "struct GmClProto::t_CharShape",
+      "int",
+      "int",
+      "float",
+      "int",
+      "unsigned int",
+      "unsigned int",
+      "class GmClProto::t_arrRaidInformationString",
+      "class GmClProto::t_arrRaidInformationString",
+      "string",
+      "unsigned int",
+      "string",
+      "string",
+      "struct GmClProto::time_t",
+      "struct GmClProto::time_t",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"t_RcbGroup",
+    "arguments":[
+      "unsigned int",
+      "struct GmClProto::t_LatLng",
+      "class GmClProto::t_CUIDList"
+    ]
+  },
+  {
+    "name":"t_ReauthCode",
+    "arguments":[
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_RecommendedQuestArray",
+    "arguments":[
+      "List[int]"
+    ]
+  },
+  {
+    "name":"t_ScriptUID",
+    "arguments":[
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_SealSkillInfo",
+    "arguments":[
+      "struct GmClProto::t_SkillUID",
+      "struct GmClProto::t_SequenceTime"
+    ]
+  },
+  {
+    "name":"t_SelectMercenaryInfo",
+    "arguments":[
+      "struct GmClProto::t_CUID",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"t_SelectMercenaryInfoArray",
+    "arguments":[
+      "List[struct GmClProto::t_SelectMercenaryInfo]"
+    ]
+  },
+  {
+    "name":"t_SequenceTime",
+    "arguments":[
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_SharedBattleTokenInfo",
+    "arguments":[
+      "struct GmClProto::t_BattleGroupUID",
+      "class GmClProto::t_arrBattleToken"
+    ]
+  },
+  {
+    "name":"t_SkillDetail",
+    "arguments":[
+      "int",
+      "string",
+      "string",
+      "bool",
+      "int",
+      "int",
+      "int",
+      "int",
+      "int",
+      "unsigned int",
+      "int",
+      "int",
+      "bool",
+      "bool",
+      "unsigned __int64",
+      "int"
+    ]
+  },
+  {
+    "name":"t_SkillEffectedStatus",
+    "arguments":[
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"t_SkillStatusEffectEventInfo",
+    "arguments":[
+      "struct GmClProto::t_SkillUID",
+      "struct GmClProto::t_SkillEffectedStatus",
+      "class GmClProto::t_arrSkillStatusEffectInfo"
+    ]
+  },
+  {
+    "name":"t_SkillStatusEffectInfo",
+    "arguments":[
+      "struct GmClProto::t_SkillStatusEffectUID",
+      "unsigned int",
+      "unsigned int",
+      "struct GmClProto::t_SequenceTime"
+    ]
+  },
+  {
+    "name":"t_SkillStatusEffectUID",
+    "arguments":[
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_SkillSubTypeInfo",
+    "arguments":[
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"t_SkillUID",
+    "arguments":[
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"t_SlotLotItemInfo",
+    "arguments":[
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"t_StatusAttributeReward",
+    "arguments":[
+      "unsigned int",
+      "unsigned int",
+      "bool",
+      "struct GmClProto::t_UnifiedItemQuantity",
+      "string"
+    ]
+  },
+  {
+    "name":"t_SymbolUID",
+    "arguments":[
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_TelopElement",
+    "arguments":[
+      "struct GmClProto::t_Millisecond",
+      "int",
+      "int",
+      "int",
+      "string"
+    ]
+  },
+  {
+    "name":"t_TelopElements",
+    "arguments":[
+      "List[struct GmClProto::t_TelopElement]"
+    ]
+  },
+  {
+    "name":"t_UnifiedItemId",
+    "arguments":[
+      "unsigned int",
+      "class GmClProto::e_GmClUnifiedItemType"
+    ]
+  },
+  {
+    "name":"t_UnifiedItemIds",
+    "arguments":[
+      "List[struct GmClProto::t_UnifiedItemId]"
+    ]
+  },
+  {
+    "name":"t_UnifiedItemQuantities",
+    "arguments":[
+      "List[struct GmClProto::t_UnifiedItemQuantity]"
+    ]
+  },
+  {
+    "name":"t_UnifiedItemQuantitiesWithAttributes",
+    "arguments":[
+      "List[struct GmClProto::t_UnifiedItemQuantityWithAttributes]"
+    ]
+  },
+  {
+    "name":"t_UnifiedItemQuantity",
+    "arguments":[
+      "struct GmClProto::t_UnifiedItemId",
+      "int"
+    ]
+  },
+  {
+    "name":"t_UnifiedItemQuantityWithAttributes",
+    "arguments":[
+      "struct GmClProto::t_UnifiedItemQuantity",
+      "struct GmClProto::unified_item_attributes_t"
+    ]
+  },
+  {
+    "name":"t_UnifiedItemUId",
+    "arguments":[
+      "class GmClProto::e_GmClUnifiedItemUIdType",
+      "unsigned __int64"
+    ]
+  },
+  {
+    "name":"t_UpdateItemListInfo",
+    "arguments":[
+      "struct GmClProto::t_ItemUID",
+      "unsigned int",
+      "unsigned int",
+      "struct GmClProto::t_SequenceTime"
+    ]
+  },
+  {
+    "name":"t_WarningInfo",
+    "arguments":[
+      "class GmClProto::e_WarningKind",
+      "string",
+      "string",
+      "int"
+    ]
+  },
+  {
+    "name":"t_WarpAreaInfo",
+    "arguments":[
+      "int",
+      "struct GmClProto::t_FieldUID",
+      "int",
+      "struct GmClProto::t_AreaUID",
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_WarpTipsMessage",
+    "arguments":[
+      "int",
+      "string"
+    ]
+  },
+  {
+    "name":"t_WarpTipsMessageArray",
+    "arguments":[
+      "List[struct GmClProto::t_WarpTipsMessage]"
+    ]
+  },
+  {
+    "name":"t_WarpUID",
+    "arguments":[
+      "int",
+      "int"
+    ]
+  },
+  {
+    "name":"t_WindowCtrl",
+    "arguments":[
+      "int",
+      "string",
+      "string"
+    ]
+  },
+  {
+    "name":"t_arrAdditionalSkillInfo",
+    "arguments":[
+      "List[class GmClProto::t_arrAdditionalSkillInfo_]"
+    ]
+  },
+  {
+    "name":"t_arrAdditionalSkillInfo_",
+    "arguments":[
+      "class GmClProto::t_arrAdditionalSkillInfo_&&"
+    ]
+  },
+  {
+    "name":"t_arrAreaDropItemInfo",
+    "arguments":[
+      "List[struct GmClProto::t_AreaDropItemInfo]"
+    ]
+  },
+  {
+    "name":"t_arrAttachCoreDetail",
+    "arguments":[
+      "List[struct GmClProto::t_AttachCoreDetail]"
+    ]
+  },
+  {
+    "name":"t_arrAvacolleChangeFavorite",
+    "arguments":[
+      "List[struct GmClProto::t_AvacolleChangeFavorite]"
+    ]
+  },
+  {
+    "name":"t_arrAvacolleFilter",
+    "arguments":[
+      "List[unsigned int]"
+    ]
+  },
+  {
+    "name":"t_arrAvacolleTags",
+    "arguments":[
+      "List[class GmClProto::t_AvacolleTag]"
+    ]
+  },
+  {
+    "name":"t_arrAvatarItemID",
+    "arguments":[
+      "List[unsigned int]"
+    ]
+  },
+  {
+    "name":"t_arrBattleBoardPointReward",
+    "arguments":[
+      "List[struct GmClProto::t_BattleBoardPointReward]"
+    ]
+  },
+  {
+    "name":"t_arrBattleBoardTab",
+    "arguments":[
+      "List[struct GmClProto::t_BattleBoardTab]"
+    ]
+  },
+  {
+    "name":"t_arrBattleBoostSimpleOne",
+    "arguments":[
+      "List[struct GmClProto::t_BattleBoostSimpleOne]"
+    ]
+  },
+  {
+    "name":"t_arrBattleCard",
+    "arguments":[
+      "List[struct GmClProto::t_BattleCard]"
+    ]
+  },
+  {
+    "name":"t_arrBattleCardID",
+    "arguments":[
+      "List[unsigned int]"
+    ]
+  },
+  {
+    "name":"t_arrBattleDropItemInfo",
+    "arguments":[
+      "List[struct GmClProto::t_BattleDropItemInfo]"
+    ]
+  },
+  {
+    "name":"t_arrBattleDropScalarInfo",
+    "arguments":[
+      "List[struct GmClProto::t_BattleDropScalarInfo]"
+    ]
+  },
+  {
+    "name":"t_arrBattleDropStageInfo",
+    "arguments":[
+      "List[struct GmClProto::t_BattleDropStageInfo]"
+    ]
+  },
+  {
+    "name":"t_arrBattleField",
+    "arguments":[
+      "List[unsigned int]"
+    ]
+  },
+  {
+    "name":"t_arrBattleGaugeParamList",
+    "arguments":[
+      "List[int]"
+    ]
+  },
+  {
+    "name":"t_arrBattleGroupData",
+    "arguments":[
+      "List[struct GmClProto::t_BattleGroupData]"
+    ]
+  },
+  {
+    "name":"t_arrBattleInduction",
+    "arguments":[
+      "List[struct GmClProto::t_BattleInduction]"
+    ]
+  },
+  {
+    "name":"t_arrBattleItemAddonInfo",
+    "arguments":[
+      "List[struct GmClProto::t_BattleItemAddonInfo]"
+    ]
+  },
+  {
+    "name":"t_arrBattleItemAttachCoreInfo",
+    "arguments":[
+      "List[struct GmClProto::t_BattleItemAttachCoreInfo]"
+    ]
+  },
+  {
+    "name":"t_arrBattleItemGaugeInfo",
+    "arguments":[
+      "List[struct GmClProto::t_BattleItemGaugeInfo]"
+    ]
+  },
+  {
+    "name":"t_arrBattleProductionID",
+    "arguments":[
+      "List[unsigned int]"
+    ]
+  },
+  {
+    "name":"t_arrBattleProductionPlayInfo",
+    "arguments":[
+      "List[struct GmClProto::t_BattleProductionPlayInfo]"
+    ]
+  },
+  {
+    "name":"t_arrBattleReactionSkillInfo",
+    "arguments":[
+      "List[struct GmClProto::t_BattleReactionSkillInfo]"
+    ]
+  },
+  {
+    "name":"t_arrBattleRepeatSkillTargetEffectInfos",
+    "arguments":[
+      "List[struct GmClProto::t_BattleSkillTargetEffectInfos]"
+    ]
+  },
+  {
+    "name":"t_arrBattleSkillDetailInfo",
+    "arguments":[
+      "List[struct GmClProto::t_BattleSkillDetailInfo]"
+    ]
+  },
+  {
+    "name":"t_arrBattleSkillEffectInfo",
+    "arguments":[
+      "List[struct GmClProto::t_BattleSkillEffectInfo]"
+    ]
+  },
+  {
+    "name":"t_arrBattleSkillInfo",
+    "arguments":[
+      "List[struct GmClProto::t_BattleSkillInfo]"
+    ]
+  },
+  {
+    "name":"t_arrBattleSkillTargetEffectInfo",
+    "arguments":[
+      "List[struct GmClProto::t_BattleSkillTargetEffectInfo]"
+    ]
+  },
+  {
+    "name":"t_arrBattleToken",
+    "arguments":[
+      "List[struct GmClProto::t_BattleToken]"
+    ]
+  },
+  {
+    "name":"t_arrBoutCharUID",
+    "arguments":[
+      "List[struct GmClProto::t_BoutCharUID]"
+    ]
+  },
+  {
+    "name":"t_arrBoutEffectGenInfo",
+    "arguments":[
+      "List[struct GmClProto::t_BoutEffectGenInfo]"
+    ]
+  },
+  {
+    "name":"t_arrBoutGroupSymbolInfo",
+    "arguments":[
+      "List[struct GmClProto::t_BoutGroupSymbolInfo]"
+    ]
+  },
+  {
+    "name":"t_arrBoxCapacityRewardExchangeInfo",
+    "arguments":[
+      "List[struct GmClProto::t_BoxCapacityRewardExchangeInfo]"
+    ]
+  },
+  {
+    "name":"t_arrChatChannel",
+    "arguments":[
+      "List[struct GmClProto::t_ChatChannel]"
+    ]
+  },
+  {
+    "name":"t_arrChatCommand",
+    "arguments":[
+      "List[struct GmClProto::t_ChatCommand]"
+    ]
+  },
+  {
+    "name":"t_arrClanRankCondition",
+    "arguments":[
+      "List[struct GmClProto::t_clanRankCondition]"
+    ]
+  },
+  {
+    "name":"t_arrClanRankRewardList",
+    "arguments":[
+      "List[struct GmClProto::t_clanRankRewardList]"
+    ]
+  },
+  {
+    "name":"t_arrClanRoomItem",
+    "arguments":[
+      "List[struct GmClProto::t_clanRoomItem]"
+    ]
+  },
+  {
+    "name":"t_arrClanShopItemList",
+    "arguments":[
+      "List[struct GmClProto::t_clanShopItemList]"
+    ]
+  },
+  {
+    "name":"t_arrClanTotalQuestMissionPointReward",
+    "arguments":[
+      "List[struct GmClProto::t_ClanTotalQuestMissionPointReward]"
+    ]
+  },
+  {
+    "name":"t_arrCoordinate",
+    "arguments":[
+      "List[struct GmClProto::t_Coordinate]"
+    ]
+  },
+  {
+    "name":"t_arrCoordinateAvatarItemID",
+    "arguments":[
+      "List[unsigned int]"
+    ]
+  },
+  {
+    "name":"t_arrCoreSkillDetail",
+    "arguments":[
+      "List[struct GmClProto::t_CoreSkillDetail]"
+    ]
+  },
+  {
+    "name":"t_arrEffectBattleProductionID",
+    "arguments":[
+      "List[unsigned int]"
+    ]
+  },
+  {
+    "name":"t_arrEmotionAvacolle",
+    "arguments":[
+      "List[struct GmClProto::t_EmotionAvacolle]"
+    ]
+  },
+  {
+    "name":"t_arrEmotionUpdateInfoList",
+    "arguments":[
+      "List[struct GmClProto::t_EmotionUpdateInfo]"
+    ]
+  },
+  {
+    "name":"t_arrEnchantIconList",
+    "arguments":[
+      "List[struct GmClProto::t_EnchantIconData]"
+    ]
+  },
+  {
+    "name":"t_arrEquipAvacolle",
+    "arguments":[
+      "List[struct GmClProto::t_EquipAvacolle]"
+    ]
+  },
+  {
+    "name":"t_arrEventLoginBonusInfo",
+    "arguments":[
+      "List[struct GmClProto::t_EventLoginBonusInfo]"
+    ]
+  },
+  {
+    "name":"t_arrEventLoginBonusList",
+    "arguments":[
+      "List[struct GmClProto::t_EventLoginBonusOne]"
+    ]
+  },
+  {
+    "name":"t_arrEventPointAccumulationRewardElement",
+    "arguments":[
+      "List[struct GmClProto::t_EventPointAccumulationRewardElement]"
+    ]
+  },
+  {
+    "name":"t_arrEventPointAccumulationRewardGroup",
+    "arguments":[
+      "List[struct GmClProto::t_EventPointAccumulationRewardGroup]"
+    ]
+  },
+  {
+    "name":"t_arrFashionShowReward",
+    "arguments":[
+      "List[struct GmClProto::t_FashionShowReward]"
+    ]
+  },
+  {
+    "name":"t_arrFieldGimmickBattleToken",
+    "arguments":[
+      "List[struct GmClProto::t_FieldGimmickBattleToken]"
+    ]
+  },
+  {
+    "name":"t_arrGachaItemInfo",
+    "arguments":[
+      "List[struct GmClProto::t_GachaItemInfo]"
+    ]
+  },
+  {
+    "name":"t_arrGachaList",
+    "arguments":[
+      "List[struct GmClProto::t_GachaList]"
+    ]
+  },
+  {
+    "name":"t_arrGemShopResetProducts",
+    "arguments":[
+      "List[unsigned int]"
+    ]
+  },
+  {
+    "name":"t_arrGemShopSuspendedProducts",
+    "arguments":[
+      "List[unsigned int]"
+    ]
+  },
+  {
+    "name":"t_arrGiftAcceptInfoList",
+    "arguments":[
+      "List[struct GmClProto::t_GiftAcceptInfo]"
+    ]
+  },
+  {
+    "name":"t_arrGiftHistoryInfoList",
+    "arguments":[
+      "List[struct GmClProto::t_GiftHistoryInfo]"
+    ]
+  },
+  {
+    "name":"t_arrGiftInfoList",
+    "arguments":[
+      "List[struct GmClProto::t_GiftInfo]"
+    ]
+  },
+  {
+    "name":"t_arrGmClAvatarCoordinateOne",
+    "arguments":[
+      "List[struct GmClProto::t_GmClAvatarCoordinateOne]"
+    ]
+  },
+  {
+    "name":"t_arrGmClAvatarItemID",
+    "arguments":[
+      "List[unsigned int]"
+    ]
+  },
+  {
+    "name":"t_arrGmClAvatarItemOne",
+    "arguments":[
+      "List[struct GmClProto::t_GmClAvatarItemOne]"
+    ]
+  },
+  {
+    "name":"t_arrGmClAvatarItemRegistInfoOne",
+    "arguments":[
+      "List[struct GmClProto::t_GmClAvatarItemRegistInfoOne]"
+    ]
+  },
+  {
+    "name":"t_arrGmClAvatarItemRegistInfoResult",
+    "arguments":[
+      "List[struct GmClProto::t_GmClAvatarItemRegistInfoResult]"
+    ]
+  },
+  {
+    "name":"t_arrGmClAvatarItemRegistOne",
+    "arguments":[
+      "List[struct GmClProto::t_GmClAvatarItemRegistOne]"
+    ]
+  },
+  {
+    "name":"t_arrGmClAvatarItemRegistResult",
+    "arguments":[
+      "List[struct GmClProto::t_GmClAvatarItemRegistResult]"
+    ]
+  },
+  {
+    "name":"t_arrGmClAvatarPieceOne",
+    "arguments":[
+      "List[struct GmClProto::t_GmClAvatarPieceOne]"
+    ]
+  },
+  {
+    "name":"t_arrGmClFormAvatarItemOne",
+    "arguments":[
+      "List[struct GmClProto::t_GmClFormAvatarItemOne]"
+    ]
+  },
+  {
+    "name":"t_arrGmClRecommendEquipStatusTable",
+    "arguments":[
+      "List[struct GmClProto::t_GmClRecommendEquipStatus]"
+    ]
+  },
+  {
+    "name":"t_arrGmPartyMemberInfo",
+    "arguments":[
+      "List[struct GmClProto::t_GmPartyMemberInfo]"
+    ]
+  },
+  {
+    "name":"t_arrGmRaidRoomMemberInfo",
+    "arguments":[
+      "List[struct GmClProto::t_GmRaidRoomMemberInfo]"
+    ]
+  },
+  {
+    "name":"t_arrGridCoord",
+    "arguments":[
+      "List[struct GmClProto::t_GridCoord]"
+    ]
+  },
+  {
+    "name":"t_arrGroupIDList",
+    "arguments":[
+      "List[unsigned int]"
+    ]
+  },
+  {
+    "name":"t_arrInteriorAvacolle",
+    "arguments":[
+      "List[struct GmClProto::t_InteriorAvacolle]"
+    ]
+  },
+  {
+    "name":"t_arrItemBoxInfoOne",
+    "arguments":[
+      "List[struct GmClProto::t_ItemBoxInfoOne]"
+    ]
+  },
+  {
+    "name":"t_arrItemEnchantIconList",
+    "arguments":[
+      "List[struct GmClProto::t_ItemEnchantIconData]"
+    ]
+  },
+  {
+    "name":"t_arrItemInfoOne",
+    "arguments":[
+      "List[struct GmClProto::t_ItemInfoOne]"
+    ]
+  },
+  {
+    "name":"t_arrItemModel",
+    "arguments":[
+      "List[struct GmClProto::t_ItemModel]"
+    ]
+  },
+  {
+    "name":"t_arrItemShape",
+    "arguments":[
+      "List[unsigned int]"
+    ]
+  },
+  {
+    "name":"t_arrItemUID",
+    "arguments":[
+      "List[struct GmClProto::t_ItemUID]"
+    ]
+  },
+  {
+    "name":"t_arrJobAbilityItemStatusEnhancement",
+    "arguments":[
+      "List[struct GmClProto::t_JobAbilityItemStatusEnhancement]"
+    ]
+  },
+  {
+    "name":"t_arrJobChangeInfo",
+    "arguments":[
+      "List[struct GmClProto::t_JobChangeInfo]"
+    ]
+  },
+  {
+    "name":"t_arrJobID",
+    "arguments":[
+      "List[int]"
+    ]
+  },
+  {
+    "name":"t_arrJobWearableEquipmentCategory",
+    "arguments":[
+      "List[struct GmClProto::t_JobWearableEquipmentCategory]"
+    ]
+  },
+  {
+    "name":"t_arrJobWearableEquipmentInfo",
+    "arguments":[
+      "List[struct GmClProto::t_JobWearableEquipmentInfo]"
+    ]
+  },
+  {
+    "name":"t_arrLevelModifyExtendEffectID",
+    "arguments":[
+      "List[class GmClProto::e_LevelModifyExtendEffectID]"
+    ]
+  },
+  {
+    "name":"t_arrLoginBonusContents",
+    "arguments":[
+      "List[class GmClProto::t_LoginBonusContent]"
+    ]
+  },
+  {
+    "name":"t_arrModelAvacolle",
+    "arguments":[
+      "List[struct GmClProto::t_ModelAvacolle]"
+    ]
+  },
+  {
+    "name":"t_arrNeedBattleTokenInfo",
+    "arguments":[
+      "List[struct GmClProto::t_NeedBattleTokenInfo]"
+    ]
+  },
+  {
+    "name":"t_arrNormalSkillInfo",
+    "arguments":[
+      "List[struct GmClProto::t_NormalSkillInfo]"
+    ]
+  },
+  {
+    "name":"t_arrPlaySkillStatusEffectEventInfo",
+    "arguments":[
+      "List[struct GmClProto::t_PlaySkillStatusEffectEventInfo]"
+    ]
+  },
+  {
+    "name":"t_arrPlaySkillStatusEffectInfo",
+    "arguments":[
+      "List[struct GmClProto::t_PlaySkillStatusEffectInfo]"
+    ]
+  },
+  {
+    "name":"t_arrPopUpInfo",
+    "arguments":[
+      "List[struct GmClProto::t_PopUpInfo]"
+    ]
+  },
+  {
+    "name":"t_arrPrefixSkill",
+    "arguments":[
+      "List[struct GmClProto::t_PrefixSkillOne]"
+    ]
+  },
+  {
+    "name":"t_arrQuestSubMission",
+    "arguments":[
+      "List[struct GmClProto::t_QuestSubMission]"
+    ]
+  },
+  {
+    "name":"t_arrQuestSubMissionAchieverCUID",
+    "arguments":[
+      "List[unsigned __int64]"
+    ]
+  },
+  {
+    "name":"t_arrQuestSubMissionWithProgress",
+    "arguments":[
+      "List[struct GmClProto::t_QuestSubMissionWithProgress]"
+    ]
+  },
+  {
+    "name":"t_arrRaidInformationString",
+    "arguments":[
+      "List[class GmClProto::t_RaidInformationString]"
+    ]
+  },
+  {
+    "name":"t_arrRewardInfo",
+    "arguments":[
+      "List[struct GmClProto::t_UnifiedItemQuantity]"
+    ]
+  },
+  {
+    "name":"t_arrSealSkillInfo",
+    "arguments":[
+      "List[struct GmClProto::t_SealSkillInfo]"
+    ]
+  },
+  {
+    "name":"t_arrSecureSessionToken",
+    "arguments":[
+      "List[unsigned char]"
+    ]
+  },
+  {
+    "name":"t_arrSharedBattleTokenInfo",
+    "arguments":[
+      "List[struct GmClProto::t_SharedBattleTokenInfo]"
+    ]
+  },
+  {
+    "name":"t_arrSkillStatusEffectEventInfo",
+    "arguments":[
+      "List[struct GmClProto::t_SkillStatusEffectEventInfo]"
+    ]
+  },
+  {
+    "name":"t_arrSkillStatusEffectInfo",
+    "arguments":[
+      "List[struct GmClProto::t_SkillStatusEffectInfo]"
+    ]
+  },
+  {
+    "name":"t_arrSkillSubTypeInfo",
+    "arguments":[
+      "List[struct GmClProto::t_SkillSubTypeInfo]"
+    ]
+  },
+  {
+    "name":"t_arrSkillUID",
+    "arguments":[
+      "List[struct GmClProto::t_SkillUID]"
+    ]
+  },
+  {
+    "name":"t_arrSlotLotItemInfo",
+    "arguments":[
+      "List[struct GmClProto::t_SlotLotItemInfo]"
+    ]
+  },
+  {
+    "name":"t_arrStatusAttributeReward",
+    "arguments":[
+      "List[struct GmClProto::t_StatusAttributeReward]"
+    ]
+  },
+  {
+    "name":"t_arrSubjugationPopLine",
+    "arguments":[
+      "List[unsigned int]"
+    ]
+  },
+  {
+    "name":"t_arrUpdateItemListInfo",
+    "arguments":[
+      "List[struct GmClProto::t_UpdateItemListInfo]"
+    ]
+  },
+  {
+    "name":"t_clanRankCondition",
+    "arguments":[
+      "int",
+      "string",
+      "unsigned __int64",
+      "unsigned __int64"
+    ]
+  },
+  {
+    "name":"t_clanRankRewardList",
+    "arguments":[
+      "int",
+      "bool",
+      "class GmClProto::t_arrRewardInfo"
+    ]
+  },
+  {
+    "name":"t_clanRoomItem",
+    "arguments":[
+      "struct GmClProto::t_UnifiedItemQuantity",
+      "unsigned __int64"
+    ]
+  },
+  {
+    "name":"t_clanShopItemList",
+    "arguments":[
+      "unsigned int",
+      "struct GmClProto::t_UnifiedItemId",
+      "unsigned __int64",
+      "unsigned __int64",
+      "struct GmClProto::t_UnifiedItemQuantity",
+      "int",
+      "bool",
+      "bool",
+      "int"
+    ]
+  },
+  {
+    "name":"t_favorite_sixth_sense",
+    "arguments":[
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"t_favorite_sixth_sense_list",
+    "arguments":[
+      "List[struct GmClProto::t_favorite_sixth_sense]"
+    ]
+  },
+  {
+    "name":"time_t",
+    "arguments":[
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"topic_t",
+    "arguments":[
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"unified_item_attributes_t",
+    "arguments":[
+      "unsigned int",
+      "unsigned int",
+      "class GmClProto::skill_levels_t",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"unified_item_queries_t",
+    "arguments":[
+      "List[struct GmClProto::unified_item_query_t]"
+    ]
+  },
+  {
+    "name":"unified_item_query_t",
+    "arguments":[
+      "struct GmClProto::alt_money_identifier_t",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "unsigned int",
+      "bool",
+      "class GmClProto::skill_levels_t",
+      "class GmClProto::skill_levels_t"
+    ]
+  },
+  {
+    "name":"unique_sixth_sense_status_identifier_t",
+    "arguments":[
+      "unsigned int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"unique_sixth_sense_status_identifiers_t",
+    "arguments":[
+      "List[struct GmClProto::unique_sixth_sense_status_identifier_t]"
+    ]
+  },
+  {
+    "name":"update_sub_master_type_t",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"weapon_order",
+    "arguments":[
+      "List[struct GmClProto::t_ItemUID]"
+    ]
+  },
+  {
+    "name":"weapon_order_result",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"weather_result",
+    "arguments":[
+      "int"
+    ]
+  },
+  {
+    "name":"weather_t",
+    "arguments":[
+      "unsigned int",
+      "string",
+      "string",
+      "int",
+      "int",
+      "unsigned int"
+    ]
+  },
+  {
+    "name":"weather_table_t",
+    "arguments":[
+      "List[struct GmClProto::weather_t]"
+    ]
+  }
+]
