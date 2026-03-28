@@ -7,7 +7,7 @@ from parser import parse_messages, expand, ByteParser
 LOGRES_PORT = 8800
 
 
-def load_syte_stream(csv_path: str) -> pd.DataFrame:
+def load_byte_stream(csv_path: str) -> pd.DataFrame:
     df = pd.read_csv(csv_path)
 
     # hex -> bytes
@@ -101,7 +101,7 @@ def main():
     args = parser.parse_args()
 
     # --- 処理パイプライン ---
-    stream_df = load_syte_stream(args.input_csv)
+    stream_df = load_byte_stream(args.input_csv)
     func_id_df = load_function_ids(args.func_id_csv)
 
     message_df = parse_byte_streams(stream_df)
